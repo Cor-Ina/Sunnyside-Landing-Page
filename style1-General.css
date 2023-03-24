@@ -3,29 +3,9 @@
 /* # Front-end Style Guide
 
 ## Layout
-
 The designs were created to the following widths:
-
 - Mobile: 375px
 - Desktop: 1440px */
-
-/* ## Colors
-
-### Primary
-
-- Soft red: hsl(7, 99%, 70%)
-- Yellow: hsl(51, 100%, 49%)
-- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
-- Dark blue (photography text): hsl(198, 62%, 26%)
-- Dark moderate cyan (footer): hsl(168, 34%, 41%)
-
-### Neutral
-
-- Very dark desaturated blue: hsl(212, 27%, 19%)
-- Very dark grayish blue: hsl(213, 9%, 39%)
-- Dark grayish blue: hsl(232, 10%, 55%)
-- Grayish blue: hsl(210, 4%, 67%)
-- White: hsl(0, 0%, 100%) */
 
 /* ## Typography
 
@@ -34,21 +14,43 @@ The designs were created to the following widths:
 - Font size: 18px
 
 ### Font
-
 - Family: [Barlow](https://fonts.google.com/specimen/Barlow)
 - Weights: 600
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700, 900 */
 
+/* ## Colors
+### Primary
+- Soft red: hsl(7, 99%, 70%)
+- Yellow: hsl(51, 100%, 49%)
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
+- Dark blue (photography text): hsl(198, 62%, 26%)
+- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+
+### Neutral
+- Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%) */
+
 :root {
-    --lightBlue: hsla(202, 71%, 90%, 1);
-    --lightPeach: hsla(35, 100%, 92%, 1);
+    --softRed: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --lightBlue: #3dbeff;
+
+    --cyan-graphic-text: hsl(167, 40%, 24%);
+    --blue-photography-text: hsl(198, 62%, 26%);
+    --cyan-footer: hsl(168, 34%, 41%);
     
-    --myYellow: rgb(255, 204, 51);
-    --navbarLinkRed: #e41c6f;
+    --dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+
   }
   
-  /* USE AS: var(--lightBlue) */
   
   * {
     margin: 0;
@@ -57,8 +59,7 @@ The designs were created to the following widths:
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Jost", sans-serif; 
-    font-weight: 400;
+    
   }
   
   html {
@@ -70,21 +71,7 @@ The designs were created to the following widths:
     overflow-x: hidden;
   }
   
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .section-heading {
-    font-size: 3rem;
-    font-family: "Jost", sans-serif;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 5rem;
-    /* border-bottom: 0.3rem solid #333; */
-    /* text-shadow: 0.2rem 0.2rem 0.5rem #555; */
-  }
+
   
   
   

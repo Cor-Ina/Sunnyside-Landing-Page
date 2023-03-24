@@ -8,49 +8,69 @@
     
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution { font-size: 11px; text-align: center; }
-      .attribution a { color: hsl(228, 45%, 44%); }
-    </style>
+    <link rel="stylesheet" href="style1-General.css" />
+    <link rel="stylesheet" href="style2-Navbar.css" />
+    <link rel="stylesheet" href="style3-Header.css" />
+    <link rel="stylesheet" href="style4-Main.css" />
+    <link rel="stylesheet" href="style5-Testimonials.css" />
+    <link rel="stylesheet" href="style6-Gallery.css" />
+    <link rel="stylesheet" href="style7-Footer.css" />
+    <link rel="stylesheet" href="style8-Attribution.css" />
+    <link rel="stylesheet" href="style9-MediaQueries.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fasthand&display=swap" rel="stylesheet">
+      
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Fasthand&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
-    <nav>
-      <div class="sunnyside">
-        <p>sunnyside</p>
-      </div>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#">Contact</a>
-      </div>
-    </nav>
+    
 
     <header>
-      <h1>We are creatives</h1>
-      <section class="bg-img">
-        <img src="images/desktop/image-header.jpg" alt="" />
-      </section>
+      <div class="navbar-container">
+        <nav class="navbar">
+          <div class="navbar-items">
+            <div class="sunnyside">
+              <p>sunnyside</p>
+            </div>
+            <div class="navbar-links">
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#projects">Projects</a>
+              <button>CONTACT</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header-container">
+        <h1>We are creatives</h1>
+        <div class="header-bg-img">
+          <img src="images/desktop/image-header.jpg" alt="" />
+        </div>
+      </div>
     </header>
     
     <main>
-      <section id="about">
+      <div id="about">
         <div class="just-text">
           <h2>Transform your brand</h2>
           <p class="just-text-text">We are a full-service creative agency specializing in helping brands grow fast. 
             Engage your clients through compelling visuals that do most of the marketing for you.</p>
           <p class="learn-more">Learn more</p>
         </div>
-
         <div class="just-img">
           <img src="images/desktop/image-transform.jpg" alt="" />
         </div>
-      </section>
+      </div>
 
-      <section id="projects">
+      <div id="projects">
         <div class="just-img">
           <img src="images/desktop/image-stand-out.jpg" alt="" />
         </div>
@@ -59,10 +79,9 @@
           <p class="just-text-text">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
           <p class="learn-more">Learn more</p>
         </div>
-      </section>
-
+      </div>
       
-      <section id="services">
+      <div id="services">
         <div class="img-text">
           <img src="images/desktop/image-graphic-design.jpg" alt="" />
           <h2>Graphic Design</h2>
@@ -70,7 +89,6 @@
             We deliver artwork that underscores your brand message and captures potential clients’ attention.
           </p>
         </div>
-
         <div class="img-text">
           <img src="images/desktop/image-photography.jpg" alt="" />
           <h2>Photography</h2>
@@ -78,10 +96,10 @@
             high-quality photos that improve your business image.
           </p>
         </div>
-      </section>
+      </div>
 
       <!---------------------------- TESTIMONIALS ------------------------->
-      <section class="testimonials">
+      <div class="testimonials">
         <h2>CLIENT TESTIMONIALS</h2>
         <div class="clients">
           <div class="client">
@@ -136,10 +154,10 @@
           </div>
         </div>
         
-      </section>
+      </div>
       <!----------------------- END OF TESTIMONIALS ------------------------->
 
-      <section class="gallery">
+      <div class="gallery">
         <div class="gallery-img">
           <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
         </div>
@@ -152,7 +170,7 @@
         <div class="gallery-img">
           <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" />
         </div>
-      </section>
+      </div>
     </main>
 
     <footer>

@@ -1,0 +1,78 @@
+/* main {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* --------------- ABOUT: Transform + Egg */
+
+#about {
+    display: flex;
+    width: 100vw;
+    height: 30rem;
+}
+
+#about .just-text {
+    width: 50%;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+#about .just-img {
+    width: 50%;
+}
+
+#about .just-img img {
+    width: 50%;
+    object-fit: cover;
+}
+
+
+/* --------------- Projects -------------- */
+#projects div {
+    width: 50%;
+    height: 30rem;
+}
+
+#projects .just-text {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .just-img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+/* --------------- Services -------------- */
+#services div {
+    width: 50%;
+    height: 30rem;
+}
+
+#services .just-text {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+#services .just-img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+/* --------------- Gallery -------------- */
+.gallery {
+    width: 100%;
+    height: 30rem;
+}
+
+.gallery img {
+    width: 25%;
+    object-fit: cover;
+
+}
+

@@ -1,0 +1,55 @@
+/******************** 2. NAVBAR ******************/
+.navbar {
+    width: 100%;
+    height: 8rem;
+    background-color: var(--lightBlue);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    font-family: Barlow;
+  }
+  
+  .navbar-items {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /************* sunnyside *************/
+  .sunnyside p {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.6;
+    color: var(--white);
+  }
+  /**************************/
+  
+  .navbar-links a {
+    font-size: 1.2rem;
+    font-weight: 250;
+    color: var(--white);
+    margin-left: 4rem;
+    /* transition: color 0.2s; */
+  }
+
+  .navbar-links button {
+    font-family: Fraunces;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 1rem;
+    width: 10rem;
+    background: (--white);
+    color: black;
+    margin-left: 4rem;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+ .navbar-links:hover button {
+    background: var(--yellow);
+ }
+  
