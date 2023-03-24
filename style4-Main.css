@@ -1,73 +1,45 @@
-/* main {
+main {
+    position: relative;
     display: flex;
     flex-direction: column;
-} */
-
-/* --------------- ABOUT: Transform + Egg */
-
-#about {
-    display: flex;
-    width: 100vw;
-    height: 30rem;
 }
 
-#about .just-text {
+#about {
+    display: block;
+}
+
+#about, #projects, #services {
+    display: flex;
+    width: 100%;
+    height: 60rem;
+}
+
+.just-text {
     width: 50%;
     background: gray;
     display: flex;
     flex-direction: column;
 }
 
-#about .just-img {
+.just-img {
     width: 50%;
 }
 
-#about .just-img img {
-    width: 50%;
-    object-fit: cover;
-}
-
-
-/* --------------- Projects -------------- */
-#projects div {
-    width: 50%;
-    height: 30rem;
-}
-
-#projects .just-text {
-    background: var(--white);
-    display: flex;
-    flex-direction: column;
-}
-
-#projects .just-img {
+.just-img img {
     width: 100%;
     object-fit: cover;
-
 }
 
-/* --------------- Services -------------- */
-#services div {
-    width: 50%;
-    height: 30rem;
-}
-
-#services .just-text {
-    background: var(--white);
-    display: flex;
-    flex-direction: column;
-}
-
-#services .just-img {
+.testimonials {
     width: 100%;
-    object-fit: cover;
-
+    display: flex;
+    align-items: center;
 }
 
 /* --------------- Gallery -------------- */
 .gallery {
     width: 100%;
-    height: 30rem;
+    height: 40rem;
 }
 
 .gallery img {
