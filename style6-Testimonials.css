@@ -1,0 +1,34 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials h1 {
+    margin-bottom: 6rem;
+}
+
+.clients {
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.client img {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.client-blurb {
+    width: 60%;
+    margin: 4rem 0;
+}
