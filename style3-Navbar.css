@@ -21,7 +21,7 @@ nav {
   .sunnyside p {
     font-size: 2rem;
     font-weight: 800;
-    letter-spacing: 0.6;
+    letter-spacing: 0.1rem;
     color: var(--white);
   }
   /**************************/
@@ -49,7 +49,7 @@ nav {
     transition: background 0.2s;
   }
 
- .nav-links:hover button {
+ .nav-links button:hover {
     background: var(--yellow);
  }
   

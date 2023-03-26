@@ -1,6 +1,8 @@
 footer {
     background: var(--footer-bg);
     color: var(--cyan-footer);
+    margin-top: -0.3rem;
+    font-family: Barlow;
 }
 
 .footer-container {
@@ -12,20 +14,35 @@ footer {
 
 .footer-container h3 {
     margin-top: 3rem;
-
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
 }
 
 .footer-links  {
-    margin: 2.5rem 0 4rem 0;
-    color: var(--cyan-footer);
-    
+    margin: 2.5rem 0 6rem 0;
+    color: var(--cyan-footer);   
 }
 
 .footer-links a {
     color: var(--cyan-footer);
+    margin: 0 2rem;
+    font-size: 1.2rem;
 }
 
 .social-icons {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    
 }
 
+.social-icons i {
+    font-size: 1.4rem;
+    width: 2rem;
+    height: 2rem;
+    color: var(--cyan-footer);
+    margin: 0 0.3rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
