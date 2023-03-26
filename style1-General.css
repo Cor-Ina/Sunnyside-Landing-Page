@@ -39,8 +39,10 @@ The designs were created to the following widths:
     --yellow: hsl(51, 100%, 49%);
     --lightBlue: #3dbeff;
 
-    --cyan-graphic-text: hsl(167, 40%, 24%);
-    --blue-photography-text: hsl(198, 62%, 26%);
+    --cyan-graphic-text-h: hsl(167, 40%, 24%);
+    --cyan-graphic-text-p: hsla(167, 40%, 24%, 0.7);
+    --blue-photography-text-h: hsl(198, 62%, 26%);
+    --blue-photography-text-p: hsla(198, 62%, 26%, 0.7);
     --cyan-footer: hsl(168, 34%, 41%);
     --footer-bg: hsl(167,44%,70%);
     
