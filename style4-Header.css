@@ -21,13 +21,14 @@
 
 .heading {
   position: absolute;
-  bottom: 25%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   color: var(--white);
+  text-align: center;
   font-family: Fraunces;
   font-size: 2rem;
   font-weight: 500;
