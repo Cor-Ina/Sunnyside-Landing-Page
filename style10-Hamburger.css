@@ -1,7 +1,6 @@
 .hamburger-container {
     position: relative;
     /* display: none; */
-    z-index: 200;
 }
   
 .hamburger-menu {
@@ -10,17 +9,17 @@ height: 3rem;
 position: fixed;
 top: 2.5rem;
 right: 2.5%;
-z-index: 200;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 cursor: pointer;
+transition: right 0.5s;
+z-index: 200;
 }
 
 .change .hamburger-menu {
-right: 6rem;
-color: black;
-z-index: 300;
+right: 20rem;
+
 }
 
 .line {
@@ -46,3 +45,6 @@ visibility: hidden;
 .change .line-3 {
 transform: rotate(-45deg) translate(0.3rem, -0.8rem);
 }
+
+
+
