@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 
 // draw vertical line
 const centerX = window.innerWidth/2;
-const centerY = 50;
+const centerY = window.innerHeight/13;
 const targetY = centerY + 70;
 
 context.moveTo(centerX,centerY);
