@@ -6,22 +6,27 @@
     align-items: center; 
     position: relative;
     overflow: hidden;
+    /*to hide the negative top margin of the yellow tile  */
+    z-index: 50;
 }
-  
+
 .header-container img {
   margin-top: -8rem;
   width: 100%;
   object-fit: cover;
   overflow: hidden;
   /*to hide the negative top margin of the yellow tile  */
-  z-index: 50;
+  /* z-index: 50; */
 }
 
 .heading {
   position: absolute;
-  top: 25%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: var(--white);
   font-family: Fraunces;
   font-size: 2rem;
@@ -29,4 +34,9 @@
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   z-index: 50;
+}
+
+heading h1 {
+  position: relative;
+  /* z-index: 30; */
 }

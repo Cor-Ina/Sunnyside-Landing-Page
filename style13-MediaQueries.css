@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+    html {
+      font-size: 45%;
+    }
+  
+    .hamburger-container {
+      display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+  
+    .hamburger-menu {
+      cursor: pointer; 
+    }
+  
+    .menu-link {
+      font-size: 3rem;
+    }
+  
+  }
+
+  
+  @media (max-width: 500px) {
+    html {
+      font-size: 45%;
+    }
+  
+  }
+  
+  @media (max-width: 400px) {
+   
+    .sidebar {
+      width: 100%;
+      right: -100%;
+    }
+  
+  }

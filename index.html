@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="style9-Attribution.css" />
     <link rel="stylesheet" href="style10-Hamburger.css" />
     <link rel="stylesheet" href="style11-Sidebar.css" />
-    <link rel="stylesheet" href="style12-MediaQueries.css" />
+    <link rel="stylesheet" href="style12-Canvas.css" />
+    <link rel="stylesheet" href="style13-MediaQueries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +37,7 @@
 
   <body>
     
-    <div class="container">
+    <div class="front-page">
       <nav>
         <div class="nav-container">
           <div class="sunnyside">
@@ -60,12 +61,20 @@
         </div>
       </div>
   
-      <header>
+      <header class="header">
         <div class="header-container">
-          <img src="images/desktop/image-header.jpg" alt="" />
-          <div class="heading"><h1>We are creatives</h1></div>
+          <picture>
+            <source media="(max-width: 700px)" srcset="images/mobile/image-header.jpg">
+            <img src="images/desktop/image-header.jpg" alt="">
+          </picture>
+
+          <div class="heading">
+            <h1>We are creatives</h1>
+            <canvas id="drawingCanvas"></canvas>
+          </div>
         </div>
       </header>
+
   
       <section class="sidebar">
         <ul class="menu">
@@ -99,7 +108,10 @@
             </div>
           </div>
           <div class="tile">
-            <img src="images/desktop/image-transform.jpg" alt="" />
+            <picture>
+              <source media="(max-width: 700px)" srcset="images/mobile/image-transform.jpg">
+              <img src="images/desktop/image-transform.jpg" alt="">
+            </picture>
           </div>
         </div>
       </section>
@@ -107,7 +119,10 @@
       <section class="tiles projects" id="projects">
         <div class="tiles-container">
           <div class="tile">
-            <img src="images/desktop/image-stand-out.jpg" alt="" />
+            <picture>
+              <source media="(max-width: 700px)" srcset="images/mobile/image-stand-out.jpg">
+              <img src="images/desktop/image-stand-out.jpg" alt="">
+            </picture>
           </div>
           <div class="tile">
             <div class="text-container">
@@ -123,7 +138,10 @@
         <div class="tiles-container">
           <div class="tile img-text graphic">
             <div>
-              <img src="images/desktop/image-graphic-design.jpg" alt="" />
+              <picture>
+                <source media="(max-width: 700px)" srcset="images/mobile/image-graphic-design.jpg">
+                <img src="images/desktop/image-graphic-design.jpg" alt="">
+              </picture>
             </div>
             <div class="img-text-text">
               <h2>Graphic Design</h2>
@@ -135,7 +153,10 @@
   
           <div class="tile img-text photography">
             <div>
-              <img src="images/desktop/image-photography.jpg" alt="" />
+              <picture>
+                <source media="(max-width: 700px)" srcset="images/mobile/image-photography.jpg">
+                <img src="images/desktop/image-photography.jpg" alt="">
+              </picture>
             </div>
             
             <div class="img-text-text">
@@ -210,16 +231,32 @@
 
       <div class="gallery">
         <div class="gallery-img">
-          <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
+          <picture>
+            <source media="(max-width: 700px)" srcset="images/mobile/image-gallery-milkbottles.jpg">
+            <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+          </picture>
+          <!-- <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" /> -->
         </div>
         <div class="gallery-img">
-          <img src="images/desktop/image-gallery-orange.jpg" alt="" />
+          <picture>
+            <source media="(max-width: 700px)" srcset="images/mobile/image-gallery-orane.jpg">
+            <img src="images/desktop/image-gallery-orange.jpg" alt="">
+          </picture>
+          <!-- <img src="images/desktop/image-gallery-orange.jpg" alt="" /> -->
         </div>
         <div class="gallery-img">
-          <img src="images/desktop/image-gallery-cone.jpg" alt="" />
+          <picture>
+            <source media="(max-width: 700px)" srcset="images/mobile/image-gallery-cone.jpg">
+            <img src="images/desktop/image-gallery-cone.jpg" alt="">
+          </picture>
+          <!-- <img src="images/desktop/image-gallery-cone.jpg" alt="" /> -->
         </div>
         <div class="gallery-img">
-          <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+          <picture>
+            <source media="(max-width: 700px)" srcset="images/mobile/image-gallery-sugarcubes.jpg">
+            <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+          </picture>
+          <!-- <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" /> -->
         </div>
       </div>
     </main>
@@ -248,13 +285,17 @@
           </a>
         </div>
       </div>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Corina Murg</a>.
+      </div>
     </footer>
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Corina Murg</a>.
-    </div>
+
 
     <script src="script.js"></script>
+    <script src="scriptCanvas.js"></script>
+
   </body>
 </html>
