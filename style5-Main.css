@@ -68,7 +68,8 @@ section {
     color: var(--dark-desaturated-blue);
     position: relative;
     margin-left: 0.4rem;
-    width: 24%;
+    /* change to rem ----------------------------------*/
+    width: 12rem;
     text-align: center;
 }
 
