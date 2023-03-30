@@ -30,18 +30,23 @@
 }
 
 @media (max-width: 900px) {
-  .heading {
+  /* .heading {
     top: 18%;
-  }
+  } */
+  nav {
+    height: 6rem;
+  } 
     
 }
 
 @media (max-width: 850px) {
   .heading {
-    top: 25%;
+    /* top: 25%; */
     font-size: 1.6rem;
   }
 }
+
+
 /* ---- WORKS -------------*/
 @media (max-width: 800px) {
   nav {
@@ -53,8 +58,11 @@
   }
 
   .heading {
-    top: 23%;
+    /* top: 50%; */
     font-size: 1.5rem;
+    /* z-index: 1000;
+    position: relative; */
+    background-color: pink;
   }
 
   .hamburger-container {
@@ -73,6 +81,43 @@
     font-size: 3rem;
   }
 
+  .text-container {
+    width: 56%;
+  }
+
+  .text-container p:not(.learn-more){
+    width: 85%;
+  }
+
+  /* -------------- SERVICES --------------*/
+  .img-text-text{
+    width: 100%;
+  }
+
+  .img-text-text h2{
+    width: 80%;
+    font-size: 2.2rem;
+  }
+
+  .img-text-text p{
+    width: 75%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  /* ----------------TESTIMONIALS ----------------*/
+  .testimonials {
+    padding: 10rem 0;
+  }
+
+  .clients {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .client-blurb {
+    width: 83.5%;
+  }
 }
 
 @media (max-width: 750px) {
@@ -85,7 +130,7 @@
   }
 
   .heading {
-    top: 12.7%;
+    /* top: 12.7%; */
     font-size: 1.5rem;
   }
 }
@@ -136,7 +181,7 @@
 }
 
 /* ------------------------------------------------------------------------- */
-/* --------------------------------- @450px ------------------------------- */
+/* --------------------------------- @550px ------------------------------- */
 @media (max-width: 550px) {
   html {
     font-size: 58%;
@@ -147,8 +192,8 @@
   }
 
   .text-container {
-    width: 85%;
-    padding: 2rem 1rem;
+    width: 95%;
+    padding: 2rem 1rem 2rem 3rem;
   }
 
   .just-text-text {
@@ -158,6 +203,69 @@
   .learn-more {
     width: 7.5rem;
   }
+
+  /* ----- SERVICES ---------- */
+
+  .img-text-text{
+    width: 100%;
+  }
+
+  .img-text-text h2{
+    width: 80%;
+    font-size: 2.5rem;
+  }
+
+  .img-text-text p{
+    width: 85%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  /* -----------TESTIMONIALS -----------*/
+  .testimonials{
+    padding: 9rem 1rem 7rem 1rem;
+  }
+
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .client {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    width: 80%;
+
+  }
+
+  .client img {
+    width: 6.5rem;
+  }
+
+  .client-text {
+    margin-top: 2rem;
+    margin-left: -1rem;
+    text-align: left;
+    align-items: left;
+  }
+
+  .client-text p {
+    text-align: left;
+  }
+  .client-blurb {
+    margin: 1rem 0;
+  }
+
+  .client-blurb p {
+    text-align: left;
+  }
+
+
+
 }
 
 
@@ -267,13 +375,15 @@
   }
 
   .client {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 6rem;
   }
 
   .client img {
     width: 6rem;
-
   }
+
   .client-blurb {
     width: 85%;
     margin: 2rem 0;
