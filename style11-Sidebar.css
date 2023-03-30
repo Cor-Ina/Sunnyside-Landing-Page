@@ -3,14 +3,11 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    right: -25rem;
+    right: 0;
+    display: none;
     background-color: #fff;
     transition: right 0.5s;
-    z-index: 100;
-  }
-  
-  .change .sidebar {
-    right: 0;
+    z-index: 300;
   }
   
   .menu {
@@ -20,7 +17,6 @@
     justify-content: center;
     right: 15%;
     top: 25%;
-    
   }
   
   .menu-item {
@@ -33,6 +29,5 @@
     font-size: 1.5rem;
     color: #555;
     position: relative;
-    
   }
   

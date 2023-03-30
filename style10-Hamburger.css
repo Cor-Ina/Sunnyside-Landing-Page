@@ -14,7 +14,7 @@ flex-direction: column;
 justify-content: space-evenly;
 cursor: pointer;
 transition: right 0.5s;
-z-index: 200;
+z-index: 400;
 }
 
 .change .hamburger-menu {
