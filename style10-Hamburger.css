@@ -17,10 +17,9 @@ transition: right 0.5s;
 z-index: 400;
 }
 
-.change .hamburger-menu {
+/* .change .hamburger-menu {
 right: 20rem;
-
-}
+} */
 
 .line {
 width: 100%;

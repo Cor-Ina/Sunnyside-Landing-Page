@@ -8,6 +8,8 @@
     background-color: #fff;
     transition: right 0.5s;
     z-index: 300;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
   }
   
   .menu {
