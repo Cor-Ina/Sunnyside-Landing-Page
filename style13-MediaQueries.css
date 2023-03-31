@@ -83,7 +83,6 @@
   }
 }
 
-
 @media (max-width: 800px) {
   nav {
     height: 6rem;
@@ -485,24 +484,18 @@
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .sidebar {
-    width: 100%;
-    right: -100%;
+    width: 100vw;
   }
 
-}
+} */
 
 @media (max-width: 350px) {
   .heading {
     top: 32%;
     font-size: 2rem;
     letter-spacing: 0.6rem;
-  }
-
-  .sidebar {
-    width: 100%;
-    right: -100%;
   }
 
 }
@@ -512,11 +505,6 @@
     top: 32%;
     font-size: 1.7rem;
     letter-spacing: 0.5rem;
-  }
-
-  .sidebar {
-    width: 100%;
-    right: -100%;
   }
 
 }
