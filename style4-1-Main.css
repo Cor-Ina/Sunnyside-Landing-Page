@@ -1,0 +1,31 @@
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- There are 3 sections. Each section has a tile-container with 2 tiles (horizontal flex) */
+.tiles-container {
+    width: 100%;
+    display: flex;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 50%;
+}
+
+.tile img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* to fill the gap between graphic design and photography tiles */
+.graphic {
+    margin-right: -0.002rem;
+}
+

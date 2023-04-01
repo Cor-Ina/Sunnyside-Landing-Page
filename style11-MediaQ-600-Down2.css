@@ -1,0 +1,244 @@
+
+/* --------------------------------------------------------------------- */
+/* --------------------------------550px ------------------------------- */
+@media (max-width: 550px) {
+  html {
+    font-size: 58%;
+  }
+
+  .heading {
+    top: 30%;
+  }
+
+  .just-text-text {
+    margin-bottom: 1rem;
+  }
+
+  .learn-more {
+    margin-top: 0;
+  }
+
+  /* --------GALLERY ------ */
+  .img-text-text p {
+    width: 21rem;
+    padding: 0;
+  }
+}
+
+
+/* ------------------------------ 500px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 500px) {
+  .heading {
+    top: 32%;
+    font-size: 2.2rem;
+  }
+
+  .text-container {
+    padding: 1.4rem 0 1.4rem 2.4rem;
+  }
+
+  .sidebar-social-icons {
+    width: 60%;
+  }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* ----------------------- CHANGE TO ONE COLUMN @480px------------------- */
+@media (max-width: 480px) {
+  .heading {
+    top: 31%;
+    font-size: 2.1rem;
+    letter-spacing: 0.8rem;
+  }
+
+  .tiles-container {
+    flex-direction: column;
+  }
+
+  .about .tile {
+    width: 100%;
+  }
+
+  .projects .tile {
+    width: 100%;
+  }
+
+  .services .tile {
+    width: 100%;
+  }
+
+  .about-img-tile {
+    order: -1;
+  }
+
+  .text-container {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 8rem 0 6rem 0;
+    padding: 0;
+  }
+
+  .text-container p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin: 2rem 0;
+  }
+
+  .text-container h2{
+    width: 90%;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .learn-more {
+    width: 12.5rem;
+  }
+
+  .learn-more::before {
+    height: 1.2rem;
+  }
+
+  /* ----- SERVICES ------- */
+  .services .tile {
+    width: 100%;
+  }
+
+  .img-text-text{
+    width: 100%;
+  }
+
+  .img-text-text h2{
+    width: 80%;
+    font-size: 3rem;
+  }
+
+  .img-text-text p{
+    width: 80%;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+
+  .services img {
+    margin-bottom: -2rem;
+  }
+
+  /* ----- TESTIMONIALS ----- */
+  .testimonials{
+    width: 100%;
+    padding: 9rem 1rem 3rem 1rem;
+  }
+  .clients {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .client {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+
+  .client img {
+    width: 6rem;
+  }
+
+  .client-blurb {
+    width: 85%;
+    margin: 2rem 0;
+    /* font-size: 1.7rem;
+    line-height: 2.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client-blurb p {
+    text-align: center;
+  }
+
+  /* .client-name {
+    font-size: 1.9rem;
+  }
+
+  .client-role {
+    font-size: 1.25rem;
+  } */
+  
+  /* ----- GALLERY ----- */
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery-img {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  .gallery img {
+    margin-top: -0.4rem;
+  }
+}
+
+
+/* ------------------------------ 450px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 450px) {
+  .header-container img {
+    margin-top: 0;
+  }
+
+  .heading {
+    top: 32%;
+    font-size: 2.1rem;
+    letter-spacing: 0.8rem;
+  }
+
+  .sidebar-social-icons {
+    width: 100%;
+  }
+
+  .sidebar-social-icons i:first-child {
+    padding-left: 3rem;
+  }
+
+  .sidebar-social-icons i:last-child {
+    padding-right: 3rem;
+  }
+}
+
+
+/* ------------------------------ 400px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 400px) {
+  
+  .sidebar-social-icons {
+    width: 100%;
+  }
+}
+
+/* ------------------------------ 350px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 350px) {
+  .heading {
+    top: 32%;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+  }
+
+}
+
+
+/* ------------------------------ 300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 300px) {
+  .heading {
+    top: 32%;
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+  }
+}
