@@ -8,6 +8,12 @@
     
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style1-General.css" />
@@ -41,7 +47,7 @@
       <nav>
         <div class="nav-container">
           <div class="sunnyside">
-            <p>sunnyside</p>
+            <a href="#"><p>sunnyside</p></a>
           </div>
           <div class="nav-links">
             <a href="#about">About</a>
@@ -75,21 +81,40 @@
 
   
     <section class="sidebar">
+      <div class="sidebar-header">
+        <h2>sunnyside</h2>
+      </div>
       <ul class="menu">
         <li class="menu-item">
-          <a href="#" class="menu-link">About</a>
+          <a href="#" class="menu-link" data-content="About">About</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Services</a>
+          <a href="#" class="menu-link" data-content="Services">Services</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Projects</a>
+          <a href="#" class="menu-link" data-content="Projects">Projects</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Contact</a>
+          <a href="#" class="menu-link" data-content="Contact">Contact</a>
         </li>
       </ul>
-
+      <div class="sidebar-social-icons-container">
+        <div class="sidebar-social-icons">
+          <a href="#">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+      
     </section>
     <!-- -------------END OF FRONT PAGE ----------- -->
     

@@ -7,4 +7,4 @@ document.querySelector(".hamburger-menu").addEventListener("click", () => {
     } else {
       sidebar.style.display = "block";
     }
-  });
+});

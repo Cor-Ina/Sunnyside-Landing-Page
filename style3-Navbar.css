@@ -24,6 +24,11 @@ nav {
     font-weight: 800;
     letter-spacing: 0.1rem;
     color: var(--white);
+    transition: color 1s;
+  }
+
+  .sunnyside p:hover {
+    color: var(--dark-desaturated-blue);
   }
   /**************************/
   
@@ -32,7 +37,11 @@ nav {
     font-weight: 250;
     color: var(--white);
     margin-left: 4rem;
-    /* transition: color 0.2s; */
+    transition: color 1s;
+  }
+
+  .nav-links a:hover {
+    color: var(--dark-desaturated-blue);
   }
 
   .nav-links button {
@@ -47,7 +56,7 @@ nav {
     border: none;
     border-radius: 4rem;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 1s;
   }
 
  .nav-links button:hover {

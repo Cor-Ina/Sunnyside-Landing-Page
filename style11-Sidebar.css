@@ -1,35 +1,100 @@
+
 .sidebar {
-    width: 25rem;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: none;
-    background-color: #fff;
-    transition: right 0.5s;
-    z-index: 300;
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 30%;
-  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--lightBlue);
+  color: var(--white);
+  padding: 2.5rem;
+  font-family: Barlow;
+  box-sizing: border-box;
+  box-shadow: -0.1rem 0 0.5rem rgba(0, 0, 0, 0.3);
+  transition: right 0.5s cubic-bezier(1, 0, 0, 1);
+  z-index: 300;
+  display: none;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  border-bottom: 0.2rem solid #eee;
+}
+
+.sidebar-header h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   
-  .menu {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    right: 15%;
-    top: 25%;
-  }
-  
-  .menu-item {
-    text-align: right;
-    margin: 1.5rem 0;
-  }
-  
-  .menu-link {
-    font-family: Barlow;
-    font-size: 1.5rem;
-    color: #555;
-    position: relative;
-  }
+.menu-item {
+  margin: 1.5rem 0;
+}
+
+.menu-link {
+  font-family: Barlow;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: var(--white);
+  position: relative;
+}
+
+.menu-link::before {
+  content: attr(data-content);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--dark-desaturated-blue);
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 0.3s ease-in-out;
+}
+
+.menu-link:hover::before {
+  width: 100%;
+}
+
+.sidebar-social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-social-icons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between; 
+  padding: 2rem;
+}
+
+.sidebar-social-icons i {
+  font-size: 3rem;
+  width: 3rem;
+  height: 3rem;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.sidebar-social-icons i:hover {
+  color: var(--dark-desaturated-blue);
+}
   

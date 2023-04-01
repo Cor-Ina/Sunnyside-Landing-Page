@@ -28,6 +28,11 @@ footer {
     color: var(--cyan-footer);
     margin: 0 2rem;
     font-size: 1.2rem;
+    transition: color 1s;
+}
+
+.footer-links a:hover {
+    color: var(--footer-link);
 }
 
 .social-icons {
@@ -45,4 +50,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: color 1s;
+}
+
+.social-icons i:hover {
+    color: var(--footer-link)
 }
