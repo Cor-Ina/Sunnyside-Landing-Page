@@ -4,7 +4,6 @@ header {
 }
 
 .header-container {
-  /* not sure why this is needed to ensure the height of the pic = height of viewport */
   max-height: 100vh;
   display: flex;
   flex-direction: column;

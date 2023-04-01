@@ -4,6 +4,7 @@ main {
     flex-direction: column;
 }
 
+/* --- There are 3 sections. Each section has a tile-container with 2 tiles (horizontal flex) */
 .tiles-container {
     width: 100%;
     display: flex;
@@ -29,6 +30,8 @@ main {
 }
 /* -------------------------------------------------------------*/
 
+
+/* ---- Sections About and Projects have a tile with just text: h2 + p + p (Learn more) */
 .text-container {
     width: 48%;
 }
@@ -45,7 +48,7 @@ main {
     width: 60%;
 }
 
-/* --- Hide horizontal white space between section --*/
+/* --- Hide horizontal white space between sections --*/
 section {
     margin-top: -0.3rem;
 }
@@ -68,7 +71,6 @@ section {
     color: var(--dark-desaturated-blue);
     position: relative;
     margin-left: 0.4rem;
-    /* change to rem ----------------------------------*/
     width: 7.5rem;
     text-align: center;
 }

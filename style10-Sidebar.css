@@ -7,11 +7,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   background: var(--lightBlue);
   color: var(--white);
-  padding: 2.5rem;
   font-family: Barlow;
   box-sizing: border-box;
   box-shadow: -0.1rem 0 0.5rem rgba(0, 0, 0, 0.3);
@@ -20,21 +17,30 @@
   display: none;
 }
 
+/* ------------------------------ HEADER ------------------------------- */
+/* -------------------------------------------------------------------- */
 .sidebar-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2.5rem;
-  border-bottom: 0.2rem solid #eee;
+  padding: 2.5rem;
 }
 
 .sidebar-header h2 {
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0.1rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 0.2rem solid #eee;
 }
 
+/* ------------------------------ MENU ------------------------------- */
+/* -------------------------------------------------------------------- */
 .menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,17 +76,24 @@
   width: 100%;
 }
 
+/* --------------------------- SOCIAL ICONS --------------------------- */
+/* -------------------------------------------------------------------- */
 .sidebar-social-icons-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 2.5rem;
 }
 
 .sidebar-social-icons {
+  position: absolute;
+  bottom: 0;
   width: 60%;
   display: flex;
   justify-content: space-between; 
-  padding: 2rem;
+  padding: 2.5rem 0;
+  border-top: 0.2rem solid #eee;
+  /* padding: 2rem; */
 }
 
 .sidebar-social-icons i {
@@ -89,7 +102,7 @@
   height: 3rem;
   color: var(--white);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   transition: background-color 0.3s;
 }

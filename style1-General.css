@@ -8,9 +8,7 @@ The designs were created to the following widths:
 - Desktop: 1440px */
 
 /* ## Typography
-
 ### Body Copy
-
 - Font size: 18px
 
 ### Font
@@ -18,6 +16,15 @@ The designs were created to the following widths:
 - Weights: 600
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700, 900 */
+
+/* --------------- Z Index --------------- 
+
+.header-container: 50 (to hide the negative top margin of the yellow tile)
+.nav (navbar): 100
+.heading (h1): 200
+.sidebar: 300
+.hamburger-menu: 400
+*/
 
 :root {
   --softRed: hsl(7, 99%, 70%);
