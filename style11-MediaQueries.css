@@ -11,12 +11,12 @@
     margin: 0 auto;
   }
 
-  /* ---- MAIN-About-Projects ---- */
+  /* ---- MAIN-About-Services ---- */
   .about {
     border-left: 2px solid var(--lightBlue);
   }
 
-  .projects {
+  .services {
     border-right: 2px solid var(--lightBlue);
   }
 
@@ -35,7 +35,7 @@
     top: 24%;
   }  
   
-  /* ---- MAIN-About-Projects ---- */
+  /* ---- MAIN-About-Services ---- */
   .about h2 {
     width: 70%;
   }
@@ -65,7 +65,7 @@
     width: 60%;
   }   
 
-  /* ---- MAIN-About-Projects ---- */
+  /* ---- MAIN-About-Services ---- */
   .text-container {
     width: 56%;
     margin-left: -2rem;
@@ -138,7 +138,7 @@
     width: 40%;
   }
 
-  /* ---- MAIN-About-Projects ---- */
+  /* ---- MAIN-About-Services ---- */
   .text-container {
     width: 60%;
   }
@@ -147,7 +147,7 @@
     width: 95%;
   }
 
-  /* ---- MAIN-Graphic-Photo ----*/
+  /* ---- MAIN-Projects ----*/
   .img-text-text{
     width: 100%;
   }
@@ -208,7 +208,7 @@
   }
 
   /* ----- MAIN-About-Projects -----*/
-  .projects h2 {
+  .services h2 {
     width: 90%;
   }
 
@@ -232,7 +232,7 @@
       width: 45%;
   }
 
-  /* ----- MAIN-About-Projects -----*/
+  /* ----- MAIN-About-Services -----*/
   .text-container {
     width: 64%;
   }
@@ -272,7 +272,7 @@
     top: 2.5rem;
   }
 
-  /* ----- MAIN-About-Projects -----*/
+  /* ----- MAIN-About-Services -----*/
   .text-container {
     width: 90%;
     padding: 1.5rem 0 1rem 3rem;
@@ -295,7 +295,7 @@
     top: 32%;
   }
 
-  /* ----- MAIN-About-Projects -----*/
+  /* ----- MAIN-About-Services -----*/
   .text-container {
     width: 100%;
     padding: 1.5rem 1rem 1.5rem 2.5rem;
@@ -362,7 +362,7 @@
     top: 30%;
   }
 
-  /* ----- MAIN-About-Projects -----*/
+  /* ----- MAIN-About-Services -----*/
   .just-text-text {
     margin-bottom: 1rem;
   }
@@ -393,7 +393,7 @@
       width: 60%;
   }
 
-  /* ----- MAIN-About-Projects -----*/
+  /* ----- MAIN-About-Services -----*/
   .text-container {
     padding: 1.4rem 0 1.4rem 2.4rem;
   }
@@ -414,7 +414,7 @@
     flex-direction: column;
   }
   
-  /* ----- MAIN-About-Projects -----*/
+  /* ----- MAIN-About-Services -----*/
   .about {
     flex-direction: column-reverse;
   }
@@ -423,7 +423,7 @@
     width: 100%;
   }
 
-  .projects .tile {
+  .services .tile {
     width: 100%;
   }
 
@@ -461,8 +461,8 @@
     height: 1.2rem;
   }
 
-  /* ----- SERVICES ----- */
-  .services .tile {
+  /* ----- PROJECTS ----- */
+  .projects .tile {
     width: 100%;
   }
 
@@ -481,7 +481,7 @@
     line-height: 2.5rem;
   }
 
-  .services img {
+  .projects img {
     margin-bottom: -2rem;
   }
 

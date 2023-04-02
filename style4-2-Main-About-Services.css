@@ -61,7 +61,7 @@ section {
     background-color: var(--yellow-underline);
 }
 
-.projects .learn-more::before {
+.services .learn-more::before {
     background-color: var(--softRed-underline);
 }
 
