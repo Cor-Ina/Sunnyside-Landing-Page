@@ -1,0 +1,611 @@
+/* ------------------------------ 1440px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  nav {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /* ---- MAIN-About-Projects ---- */
+  .about {
+    border-left: 2px solid var(--lightBlue);
+  }
+
+  .projects {
+    border-right: 2px solid var(--lightBlue);
+  }
+
+  /* ---- TESTIMONIALS ---- */
+  .testimonials {
+    border-left: 2px solid var(--lightBlue);
+    border-right: 2px solid var(--lightBlue);
+  }
+}
+
+
+/* ------------------------------ 1150px ---------------------------- */
+/* ------------------------------------------------------------------ */
+@media (max-width: 1150px) {
+  .heading {
+    top: 24%;
+  }  
+  
+  /* ---- MAIN-About-Projects ---- */
+  .about h2 {
+    width: 70%;
+  }
+}
+
+
+/* ----------------------------- 1100px ----------------------------- */
+/* ------------------------------------------------------------------ */
+@media (max-width: 1100px) {
+  .heading {
+    top: 23%;
+  }  
+
+  /* ---- TESTIMONIALS ---- */
+  .clients {
+    width: 90%;
+  }
+}
+
+
+/* ----------------------------- 1000px ------------------------------ */
+/* ------------------------------------------------------------------- */
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 1.8rem;
+    top: 21%;
+    width: 60%;
+  }   
+
+  /* ---- MAIN-About-Projects ---- */
+  .text-container {
+    width: 56%;
+    margin-left: -2rem;
+  }
+}
+
+
+/* ------------------------------ 950px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 950px) {
+  .heading {
+    font-size: 1.8rem;
+    top: 20.5%;
+  }
+  
+  /* ---- NAVBAR ---- */
+  nav {
+    height: 7rem;
+  } 
+}
+
+
+/* ------------------------------ 900px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 900px) {
+  /* ---- NAVBAR ---- */
+  nav {
+    height: 6rem;
+  } 
+
+  /* ---- TESTIMONIALS ---- */
+  .clients {
+    width: 95%;
+  }
+  .client-blurb {
+    width: 23rem;
+  }
+}
+
+
+/* ------------------------------ 850px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 850px) {
+  .heading {
+    font-size: 1.6rem;
+    top: 21%;
+  }
+}
+
+
+/* ------------------------------ 800px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 800px) {
+  .heading {
+      font-size: 1.5rem;
+      top: 23%;
+  }
+
+  /* ---- NAVBAR ---- */
+  nav {
+    height: 6rem;
+  } 
+
+  .sunnyside p {
+    font-size: 1.8rem;
+  }
+  
+  /* ---- SIDEBAR ---- */
+  .sidebar-social-icons {
+    width: 40%;
+  }
+
+  /* ---- MAIN-About-Projects ---- */
+  .text-container {
+    width: 60%;
+  }
+
+  .text-container p:not(.learn-more){
+    width: 95%;
+  }
+
+  /* ---- MAIN-Graphic-Photo ----*/
+  .img-text-text{
+    width: 100%;
+  }
+  
+  .img-text-text h2{
+    width: 80%;
+    font-size: 2.2rem;
+  }
+
+  .img-text-text p{
+    width: 75%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  /* ----- TESTIMONIALS -----*/
+  .testimonials {
+    padding: 10rem 1rem;
+  }
+
+  .client-blurb {
+    width: 19rem;
+  }
+}
+
+
+/* ------------------------------ 750px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 750px) {
+  .heading {
+      top: 21%;
+      font-size: 1.5rem;
+  }
+
+  /* ----- NAVBAR -----*/
+  nav {
+    height: 5.5rem;
+  } 
+
+  /* ----- HAMBURGER -----*/
+  .hamburger-container {
+    display: block;
+  }
+
+  .hamburger-menu {
+      cursor: pointer; 
+      top: 1.25rem;
+      right: 5%;
+  }
+
+  /* ----- SIDEBAR -----*/
+  .nav-links {
+      display: none;
+  }
+
+  .sidebar-social-icons {
+    width: 40%;
+  }
+
+  /* ----- MAIN-About-Projects -----*/
+  .projects h2 {
+    width: 90%;
+  }
+
+  /* ------ GALLERY ----- */
+  .img-text-text p {
+    width: 28rem;
+  }
+}
+
+
+/* ------------------------------ 700px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 700px) {
+  .heading {
+    top: 23%;
+    font-size: 1.4rem;
+  }
+
+  /* ----- SIDEBAR -----*/
+  .sidebar-social-icons {
+      width: 45%;
+  }
+
+  /* ----- MAIN-About-Projects -----*/
+  .text-container {
+    width: 64%;
+  }
+}
+
+
+/* ------------------------------ 650px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 650px) {
+  .heading {
+    width: 70%;
+    top: 33%;
+    font-size: 2.5rem;
+    line-height: 6rem;
+    letter-spacing: 1rem;
+  }
+
+  .header-container img {
+    margin-top: -4rem;
+  }
+
+  /* ----- NAVBAR -----*/
+  .nav-container {
+    width: 90%;
+  }
+
+  nav {
+    height: 8rem;
+  } 
+  .sunnyside p {
+    font-size: 2rem;
+  }
+  
+  /* ----- HAMBURGER -----*/
+  .hamburger-menu {
+    right: 5%;
+    top: 2.5rem;
+  }
+
+  /* ----- MAIN-About-Projects -----*/
+  .text-container {
+    width: 90%;
+    padding: 1.5rem 0 1rem 3rem;
+  }
+
+  /* ------ TESTIMONIALS ----*/
+  .clients {
+    width: 90%;
+  }
+  .client-blurb {
+    width: 15rem;
+  }
+}
+
+
+/* ------------------------------ 600px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 600px) {
+  .heading {
+    top: 32%;
+  }
+
+  /* ----- MAIN-About-Projects -----*/
+  .text-container {
+    width: 100%;
+    padding: 1.5rem 1rem 1.5rem 2.5rem;
+  }
+
+  .learn-more {
+    margin-top: -1rem;
+  }
+
+  /* ----TESTIMONIALS ----*/
+  .testimonials{
+    padding: 9rem 1rem 7rem 1rem;
+  }
+
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .client {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    width: 80%;
+  }
+
+  .client img {
+    width: 6.5rem;
+  }
+
+  .client-text {
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+
+  .client-blurb {
+    margin: 1rem 0 1rem 3rem;
+    width: 34rem;
+  }
+
+  .client-blurb p {
+    text-align: left;
+  }
+
+  /* ---- GALLERY ---- */
+  .img-text-text p {
+    width: 25rem;
+    padding: 0 2rem;
+  }
+}
+  
+  
+/* --------------------------------------------------------------------- */
+/* --------------------------------550px ------------------------------- */
+@media (max-width: 550px) {
+  html {
+    font-size: 58%;
+  }
+
+  .heading {
+    top: 30%;
+  }
+
+  /* ----- MAIN-About-Projects -----*/
+  .just-text-text {
+    margin-bottom: 1rem;
+  }
+
+  .learn-more {
+    width: 8.5rem;
+    margin-top: 0;
+  }
+  
+  /* ----- GALLERY ----- */
+  .img-text-text p {
+    width: 21rem;
+    padding: 0;
+  }
+}
+
+
+/* ------------------------------ 500px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 500px) {
+  .heading {
+    top: 32%;
+    font-size: 2.2rem;
+  }
+
+  /* ----- SIDEBAR -----*/
+  .sidebar-social-icons {
+      width: 60%;
+  }
+
+  /* ----- MAIN-About-Projects -----*/
+  .text-container {
+    padding: 1.4rem 0 1.4rem 2.4rem;
+  }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* ----------------------- CHANGE TO ONE COLUMN @480px------------------- */
+@media (max-width: 480px) {
+  .heading {
+    top: 31%;
+    font-size: 2.1rem;
+    letter-spacing: 0.8rem;
+  }
+
+  /* ----- MAIN -----*/
+  .tiles-container {
+    flex-direction: column;
+  }
+  
+  /* ----- MAIN-About-Projects -----*/
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .about .tile {
+    width: 100%;
+  }
+
+  .projects .tile {
+    width: 100%;
+  }
+
+  .about-img-tile {
+    order: -1;
+  }
+  
+  .text-container {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 8rem 0 6rem 0;
+    padding: 0;
+  }
+
+  .text-container p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin: 2rem 0;
+  }
+
+  .text-container h2{
+    width: 90%;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .learn-more {
+    width: 12.5rem;
+  }
+
+  .learn-more::before {
+    height: 1.2rem;
+  }
+
+  /* ----- SERVICES ----- */
+  .services .tile {
+    width: 100%;
+  }
+
+  .img-text-text{
+    width: 100%;
+  }
+
+  .img-text-text h2{
+    width: 80%;
+    font-size: 3rem;
+  }
+  
+  .img-text-text p{
+    width: 80%;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+
+  .services img {
+    margin-bottom: -2rem;
+  }
+
+  /* ----- TESTIMONIALS ----- */
+  .testimonials{
+    width: 100%;
+    padding: 9rem 1rem 3rem 1rem;
+  }
+
+  .testimonials h2 {
+    padding-bottom: 3rem;
+  }
+
+  .clients {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .client {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+
+  .client img {
+    width: 6rem;
+  }
+
+  .client-blurb {
+    width: 85%;
+    margin: 2rem 0;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client-blurb p {
+    text-align: center;
+  }
+
+  .client-name {
+    font-size: 1.9rem;
+  }
+
+  .client-role {
+    font-size: 1.25rem;
+  }
+
+  /* ----- GALLERY ----- */
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery-img {
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .gallery img {
+    margin-top: -0.4rem;
+  }
+}
+
+
+/* ------------------------------ 450px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 450px) {
+  .header-container img {
+    margin-top: 0;
+  }
+
+  .heading {
+    top: 32%;
+    font-size: 2.1rem;
+    letter-spacing: 0.8rem;
+  }
+  
+  /* ----- SIDEBAR ----- */
+  .sidebar-social-icons {
+    width: 100%;
+  }
+
+  .sidebar-social-icons i:first-child {
+    padding-left: 3rem;
+  }
+
+  .sidebar-social-icons i:last-child {
+    padding-right: 3rem;
+  }
+}
+
+
+/* ------------------------------ 400px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 400px) {
+  .sidebar-social-icons {
+    width: 100%;
+  }
+
+  /* ----- MAIN-About-Projects ----- */
+  .text-container {
+      width: 82%;
+  }
+}
+
+/* ------------------------------ 350px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 350px) {
+  .heading {
+    top: 32%;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+  }
+}
+  
+  
+/* ------------------------------ 300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 300px) {
+  .heading {
+    top: 32%;
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+  }
+}

@@ -17,8 +17,8 @@
   display: none;
 }
 
-/* ------------------------------ HEADER ------------------------------- */
-/* -------------------------------------------------------------------- */
+/* ----- HEADER ----- */
+
 .sidebar-header {
   display: flex;
   align-items: center;
@@ -34,8 +34,8 @@
   border-bottom: 0.2rem solid #eee;
 }
 
-/* ------------------------------ MENU ------------------------------- */
-/* -------------------------------------------------------------------- */
+/* ----- MENU ------ */
+
 .menu {
   position: absolute;
   top: 50%;
@@ -76,8 +76,7 @@
   width: 100%;
 }
 
-/* --------------------------- SOCIAL ICONS --------------------------- */
-/* -------------------------------------------------------------------- */
+/* ----- SOCIAL ICONS ----- */
 .sidebar-social-icons-container {
   display: flex;
   justify-content: center;
@@ -93,7 +92,6 @@
   justify-content: space-between; 
   padding: 2.5rem 0;
   border-top: 0.2rem solid #eee;
-  /* padding: 2rem; */
 }
 
 .sidebar-social-icons i {
