@@ -3,9 +3,6 @@
 .text-container {
     width: 48%;
     font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .about h2 {
