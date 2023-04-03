@@ -20,7 +20,7 @@ nav {
   }
 
 /*------ sunnyside ----- */
-.sunnyside p {
+.sunnyside h3 {
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0.1rem;
@@ -28,7 +28,7 @@ nav {
   transition: color 1s;
 }
 
-.sunnyside p:hover {
+.sunnyside h3:hover {
   color: var(--dark-desaturated-blue);
 }
 /***************************/
