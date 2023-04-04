@@ -139,6 +139,10 @@
   }
 
   /* ---- MAIN-About-Services ---- */
+  section {
+    margin-top: -0.4rem;
+  }
+
   .text-container {
     width: 60%;
   }

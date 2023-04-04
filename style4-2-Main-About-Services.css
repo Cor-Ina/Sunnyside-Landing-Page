@@ -11,17 +11,14 @@
 
 /* --- Hide horizontal white space between sections ---*/
 section {
-    margin-top: -0.4rem;
+    margin-top: -0.2rem;
 }
-
-/* .services-img-tile {
-    margin-top: 0.15rem;
-} */
 
 .about-img-tile {
     margin-left: -0.04rem;
 }
 /* --- Hide horizontal+vertical white space between sections ---*/
+
 
 .projects h2 {
     width: 80%;
