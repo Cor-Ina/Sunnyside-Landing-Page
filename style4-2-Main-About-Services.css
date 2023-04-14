@@ -1,7 +1,7 @@
 
 /* ---- Sections About and Projects have a tile with just text: h2 + p + p (Learn more) */
 .text-container {
-    width: 68%;
+    width: 63%;
 }
 
 .about h2 {
@@ -20,7 +20,7 @@ section {
 
 
 .services h2 {
-    width: 90%;
+    width: 100%;
 }
 
 .text-container h2 {
@@ -30,7 +30,7 @@ section {
     font-size: 2.2rem;
     line-height: 1.2;
     letter-spacing: -0.29px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: var(--dark-desaturated-blue);
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ section {
     font-style: normal;
     font-weight: 600;
     color: var(--grayish-blue);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     line-height: 1.66;
     letter-spacing: -0.13px;
 }
@@ -62,12 +62,6 @@ section {
     width: 6.6rem;
     text-align: center;
 }
-
-
-/* left: 5.84%;
-right: 6.57%;
-top: calc(50% - 25px/2);
- */
 
 
 .learn-more::before {
