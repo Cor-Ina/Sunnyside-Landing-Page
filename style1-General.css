@@ -63,7 +63,7 @@ The designs were created to the following widths:
 }
 
 html {
-  font-size: 82%;
+  /* font-size: 82%; */
   scroll-behavior: smooth;
 }
 
