@@ -16,7 +16,7 @@ header {
 
 .header-container img {
   /* not sure why this is needed to ensure the height of the pic = height of viewport */
-  margin-top: -8rem;
+  /* margin-top: -8rem; */
   width: 100%;
   object-fit: cover;
   overflow: hidden;
