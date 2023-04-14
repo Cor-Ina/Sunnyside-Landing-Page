@@ -2,7 +2,6 @@
 /* ---- Sections About and Projects have a tile with just text: h2 + p + p (Learn more) */
 .text-container {
     width: 68%;
-    font-size: 1.2rem;
 }
 
 .about h2 {
@@ -20,7 +19,7 @@ section {
 /* --- Hide horizontal+vertical white space between sections ---*/
 
 
-.projects h2 {
+.services h2 {
     width: 80%;
 }
 

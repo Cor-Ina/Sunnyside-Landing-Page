@@ -32,6 +32,9 @@ header {
   color: var(--white);
   text-align: center;
   font-family: Fraunces;
+  font-style: normal;
+  letter-spacing: 8.75px;
+  line-height: 1.2;
   font-size: 1.457rem;
   font-weight: 900;
   text-transform: uppercase;
