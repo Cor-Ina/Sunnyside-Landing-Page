@@ -26,6 +26,8 @@ The designs were created to the following widths:
 .hamburger-menu: 400
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
 :root {
   --softRed: hsl(7, 99%, 70%);
   --softRed-underline: hsla(7, 99%, 70%, 0.2);
