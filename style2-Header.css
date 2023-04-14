@@ -15,8 +15,6 @@ header {
 }
 
 .header-container img {
-  /* not sure why this is needed to ensure the height of the pic = height of viewport */
-  /* margin-top: -8rem; */
   width: 100%;
   object-fit: cover;
   overflow: hidden;
@@ -35,7 +33,7 @@ header {
   text-align: center;
   font-family: Fraunces;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   z-index: 200;
