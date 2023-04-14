@@ -20,13 +20,16 @@ section {
 
 
 .services h2 {
-    width: 80%;
+    width: 90%;
 }
 
 .text-container h2 {
     font-family: Fraunces;
     font-weight: 900;
+    font-style: normal;
     font-size: 2.2rem;
+    line-height: 1.2;
+    letter-spacing: -0.29px;
     margin-bottom: 2rem;
     color: var(--dark-desaturated-blue);
     display: flex;
@@ -34,31 +37,47 @@ section {
     justify-content: center;
 }
 
+
 .just-text-text {
     font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
     color: var(--grayish-blue);
     margin-bottom: 3rem;
-    line-height: 2rem;
+    line-height: 1.66;
+    letter-spacing: -0.13px;
 }
 
 .learn-more {
     font-family: Fraunces;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 0.83rem;
+    line-height: 1.66;
     text-transform: uppercase;
     color: var(--dark-desaturated-blue);
     position: relative;
-    margin-left: 0.4rem;
-    width: 8.5rem;
+    margin-left: 0.6rem;
+    width: 6.6rem;
     text-align: center;
 }
 
+
+/* left: 5.84%;
+right: 6.57%;
+top: calc(50% - 25px/2);
+ */
+
+
 .learn-more::before {
     content: "";
-    width: 110%;
+    width: calc(100% + 1.2rem);
     height: 0.8rem;
     position: absolute;
-    left: -5%;
+    left: -0.6rem;
     bottom: -0.2rem;
-    border-radius: 2rem;
+    border-radius: 28px;
     z-index: -1;
 }
 
