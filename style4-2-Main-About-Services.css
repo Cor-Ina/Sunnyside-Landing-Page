@@ -1,11 +1,15 @@
 
 /* ---- Sections About and Projects have a tile with just text: h2 + p + p (Learn more) */
 .text-container {
-    width: 63%;
+    width: 65%;
 }
 
 .about h2 {
     width: 75%;
+}
+
+.about .just-text-text {
+    width: 100%;
 }
 
 /* --- Hide horizontal white space between sections ---*/
