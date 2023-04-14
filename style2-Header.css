@@ -22,7 +22,7 @@ header {
 
 .heading {
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -33,7 +33,7 @@ header {
   text-align: center;
   font-family: Fraunces;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   z-index: 200;
