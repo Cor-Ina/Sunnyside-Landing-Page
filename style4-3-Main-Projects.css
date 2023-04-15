@@ -1,5 +1,10 @@
 /* to fill the gap between graphic design and photography tiles */
-.graphic {
+/* --- Hide horizontal white space between sections ---*/
+.projects {
+    margin-top: -0.5rem;
+}
+
+.tile {
     margin-right: -0.002rem;
 }
 
@@ -8,16 +13,31 @@
     position: relative;
 }
 
+.img-text-img {
+    flex-basis: 50%;
+    min-width: 50%;
+    flex-shrink: 0;
+}
+
+.img-text-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .img-text-text {
     position: absolute;
-    top: 80%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1.5rem;
 }
+
 
 .img-text-text h2 {
     text-align: center;

@@ -38,7 +38,9 @@ The designs were created to the following widths:
 
   --cyan-graphic-text-h: hsla(166, 40%, 24%, 1);
 
-  --cyan-graphic-text-p: hsla(167, 40%, 24%, 0.7);
+  --cyan-graphic-text-p: hsla(166, 30%, 35%, 1);
+
+
 
   --blue-photography-text-h:  hsla(197, 86%, 12%, 0.75);
 
@@ -54,9 +56,13 @@ The designs were created to the following widths:
   --contact: hsla(212, 27%, 19%, 1);
 
   --very-dark-grayish-blue: hsl(213, 9%, 39%);
-  --dark-grayish-blue: hsl(232, 10%, 55%);
+
+  --dark-grayish-blue:hsla(213, 9%, 39%, 1);
+  
+
   --grayish-blue: hsla(233, 10%, 55%, 1);
  
+  background: hsla(210, 4%, 67%, 1);
 
 
   --white: hsl(0, 0%, 100%);
@@ -82,6 +88,7 @@ html {
 
 body {
   overflow-x: hidden;
+  border: none;
 }
 
 .sr-only {
@@ -95,7 +102,17 @@ body {
   white-space: nowrap;
   border: 0;
 }
-  
+
+.tile,
+.testimonials {
+  background: white;
+}
+
+.img {
+  /* max-width: 100%; */
+  display: block;
+}
+
 
   
   

@@ -11,20 +11,6 @@
     margin: 0 auto;
   }
 
-  /* ---- MAIN-About-Services ---- */
-  .about {
-    border-left: 2px solid var(--lightBlue);
-  }
-
-  .services {
-    border-right: 2px solid var(--lightBlue);
-  }
-
-  /* ---- TESTIMONIALS ---- */
-  .testimonials {
-    border-left: 2px solid var(--lightBlue);
-    border-right: 2px solid var(--lightBlue);
-  }
 }
 
 
