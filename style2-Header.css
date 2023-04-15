@@ -2,7 +2,7 @@ header {
   background: url(images/desktop/image-header-arrow.png) no-repeat center bottom / cover;
   width: 100%;
   
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center; 
