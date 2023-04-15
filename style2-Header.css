@@ -3,13 +3,14 @@ header {
   max-width: 100%;
   
   min-height: 100vh; */
+
   display: flex;
   flex-direction: column;
   align-items: center; 
   position: relative;
   overflow: hidden;
   /*to hide the negative top margin of the yellow tile  */
-  z-index: 50;
+  /* z-index: 50; */
 }
 
 .header-container {
@@ -21,7 +22,7 @@ header {
   display: flex;
   flex-direction: column; */
   /* min-height: 100vh; */
-  width: 100%;
+  
   align-items: center; 
   position: relative;
   overflow: hidden;
@@ -31,8 +32,10 @@ header {
 
 .header-container img {
   width: 100%;
-  object-fit: cover;
+  /* height: auto; */
+  object-fit:contain;
   overflow: hidden;
+  object-position: bottom center;
 }
 
 .heading {
