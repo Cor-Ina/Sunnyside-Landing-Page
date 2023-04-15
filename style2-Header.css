@@ -1,6 +1,6 @@
 header {
   background: url(images/desktop/image-header-arrow.png) no-repeat center bottom / cover;
-  width: 100%;
+  max-width: 100%;
   
   min-height: 100vh;
   display: flex;
