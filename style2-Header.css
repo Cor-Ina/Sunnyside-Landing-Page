@@ -2,7 +2,7 @@ header {
   background: url(images/desktop/image-header-arrow.png) no-repeat center bottom / cover;
   /* width: 100%; */
   
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -24,12 +24,12 @@ header {
   /*to hide the negative top margin of the yellow tile  */
   /* z-index: 50;  */
 
-
+/* 
 .header-container img {
   width: 100%;
   object-fit: cover;
   overflow: hidden;
-}
+} */
 
 .heading {
   position: absolute;
