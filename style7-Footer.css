@@ -7,21 +7,17 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .footer-container {
     position: absolute;
-    /* height: 58%; */
     top: 21%;
     background-color: pink;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* margin-top: 2rem; */
-    margin-bottom: 6rem;
-    
 }
 
 .footer-links  {
@@ -45,22 +41,35 @@ footer {
 }
 
 .social-icons {
-    
     display: flex;
 }
 
-.social-icons i {
-    font-size: 1.4rem;
-    width: 2rem;
-    height: 2rem;
-    color: var(--cyan-footer);
-    margin: 0 0.3rem;  
+.social-icons img {
+    
+    width: 1.1rem;
+    height: 1.1rem;
+    color: hsla(168, 45%, 32%, 1);
+
+    margin: 0 0.8rem;  
     display: flex;
     justify-content: center;
     align-items: center;
     transition: color 1s;
 }
 
-.social-icons i:hover {
+.social-icons img:hover {
     color: var(--footer-link)
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center;
+    color: hsla(168, 45%, 32%, 1);
+    padding-bottom: 0.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a { 
+    color: var(--footer-link); 
 }
