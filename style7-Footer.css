@@ -23,7 +23,7 @@ footer {
 }
 
 .footer-links  {
-    margin: 2rem 0 3rem 0;
+    margin: 2rem 0 5rem 0;
     color: var(--cyan-footer);   
 }
 
@@ -43,7 +43,7 @@ footer {
 }
 
 .social-icons {
-    /* margin: 2rem 0; */
+    margin-bottom: 2rem;
     display: flex;
 }
 
