@@ -2,7 +2,7 @@ footer {
     position: relative;
     background: var(--footer-bg);
     margin-top: -0.4rem;
-    padding-bottom: 21%;
+    padding-top: 21%;
     font-family: Barlow;
     display: flex;
     flex-direction: column;
@@ -11,8 +11,8 @@ footer {
 
 .footer-container {
     position: absolute;
-    height: 58%;
-    top: 21%;
+    /* height: 58%; */
+    top: 23%;
     background-color: pink;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ footer {
 }
 
 .footer-links  {
-    /* margin: 2rem 0 1rem 0; */
+    margin: 2rem 0 3rem 0;
     color: var(--cyan-footer);   
 }
 
