@@ -1,7 +1,8 @@
 /* to fill the gap between graphic design and photography tiles */
 /* --- Hide horizontal white space between sections ---*/
 .projects,
-.about {
+.about,
+.testimonials {
     margin-top: -0.5rem;
 }
 
