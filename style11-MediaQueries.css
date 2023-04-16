@@ -25,6 +25,11 @@
   .about h2 {
     width: 70%;
   }
+
+    /* ---- TESTIMONIALS ---- */
+  .clients {
+    width: 100%;
+  }
 }
 
 
@@ -35,27 +40,86 @@
     top: 23%;
   }  
 
-  /* ---- TESTIMONIALS ---- */
-  .clients {
-    width: 90%;
+  .text-container {
+    width: 80%;
   }
+
+  .text-container h2{
+    width: 90%;
+}
+
+.about h2{
+  width: 60%;
+}
+
 }
 
 
 /* ----------------------------- 1000px ------------------------------ */
 /* ------------------------------------------------------------------- */
 @media (max-width: 1000px) {
+  html {
+    font-size: 95%;
+  }
+
   .heading {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     top: 21%;
     width: 60%;
   }   
 
   /* ---- MAIN-About-Services ---- */
   .text-container {
-    width: 56%;
-    margin-left: -2rem;
+    width: 80%;
+    margin-left: -1rem;
   }
+
+  .learn-more {
+    width: 7rem;
+  }
+
+   /* ----TESTIMONIALS ----*/
+   .testimonials{
+    padding: 9rem 1rem 7rem 1rem;
+  }
+
+  .testimonials h2 {
+    top: 7rem;
+  }
+
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .client {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    width: 80%;
+  }
+
+  .client img {
+    width: 6.5rem;
+  }
+
+  .client-text {
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+
+  .client-blurb {
+    margin: 1rem 0 1rem 3rem;
+    width: 34rem;
+  }
+
+  .client-blurb p {
+    text-align: left;
+  }
+
 }
 
 
@@ -63,7 +127,7 @@
 /* -------------------------------------------------------------------- */
 @media (max-width: 950px) {
   .heading {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     top: 20.5%;
   }
   
@@ -96,7 +160,7 @@
 /* -------------------------------------------------------------------- */
 @media (max-width: 850px) {
   .heading {
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     top: 21%;
   }
 }
@@ -115,9 +179,6 @@
     height: 6rem;
   } 
 
-  .sunnyside p {
-    font-size: 1.8rem;
-  }
   
   /* ---- SIDEBAR ---- */
   .sidebar-social-icons {
@@ -125,17 +186,21 @@
   }
 
   /* ---- MAIN-About-Services ---- */
-  section {
+  /* section {
     margin-top: -0.4rem;
-  }
+  } */
 
   .text-container {
-    width: 60%;
+    width: 80%;
   }
 
-  .text-container p:not(.learn-more){
-    width: 95%;
+  .about h2 {
+    width: 70%;
   }
+
+  /* .text-container p:not(.learn-more){
+    width: 95%;
+  } */
 
   /* ---- MAIN-Projects ----*/
   .img-text-text{
@@ -144,12 +209,12 @@
   
   .img-text-text h2{
     width: 80%;
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
   }
 
   .img-text-text p{
     width: 75%;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     line-height: 2rem;
   }
 
@@ -167,9 +232,12 @@
 /* ------------------------------ 750px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (max-width: 750px) {
+  html {
+    font-size: 85%;
+  }
   .heading {
       top: 21%;
-      font-size: 1.5rem;
+      /* font-size: 1.5rem; */
   }
 
   /* ----- NAVBAR -----*/
@@ -224,7 +292,15 @@
 
   /* ----- MAIN-About-Services -----*/
   .text-container {
-    width: 64%;
+    width: 80%;
+  }
+
+  .about h2 {
+    width: 80%;
+  }
+
+  .services h2 {
+    width: 100%;
   }
 }
 
@@ -232,6 +308,10 @@
 /* ------------------------------ 650px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (max-width: 650px) {
+  html {
+    font-size: 75%;
+  }
+
   .heading {
     width: 70%;
     top: 33%;
@@ -265,7 +345,7 @@
   /* ----- MAIN-About-Services -----*/
   .text-container {
     width: 90%;
-    padding: 1.5rem 0 1rem 3rem;
+    padding: 1rem 0.5rem 1rem 1rem;
   }
 
   /* ------ TESTIMONIALS ----*/
@@ -294,46 +374,9 @@
   .learn-more {
     margin-top: -1rem;
   }
-
-  /* ----TESTIMONIALS ----*/
-  .testimonials{
-    padding: 9rem 1rem 7rem 1rem;
-  }
-
-  .clients {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-    width: 100%;
-  }
-
-  .client {
-    margin: 2rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: top;
-    width: 80%;
-  }
-
-  .client img {
-    width: 6.5rem;
-  }
-
-  .client-text {
-    margin-top: 2rem;
-    margin-left: -1rem;
-  }
-
-  .client-blurb {
-    margin: 1rem 0 1rem 3rem;
-    width: 34rem;
-  }
-
-  .client-blurb p {
-    text-align: left;
-  }
-
+  
   /* ---- GALLERY ---- */
+
   .img-text-text p {
     width: 25rem;
     padding: 0 2rem;
@@ -345,7 +388,7 @@
 /* --------------------------------550px ------------------------------- */
 @media (max-width: 550px) {
   html {
-    font-size: 58%;
+    font-size: 65%;
   }
 
   .heading {
@@ -375,7 +418,7 @@
 @media (max-width: 500px) {
   .heading {
     top: 32%;
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
   }
 
   /* ----- SIDEBAR -----*/
@@ -395,7 +438,7 @@
 @media (max-width: 480px) {
   .heading {
     top: 31%;
-    font-size: 2.1rem;
+    /* font-size: 2.1rem; */
     letter-spacing: 0.8rem;
   }
 
@@ -432,7 +475,7 @@
   }
 
   .text-container p {
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
     line-height: 2.5rem;
     margin: 2rem 0;
   }
@@ -440,11 +483,11 @@
   .text-container h2{
     width: 90%;
     text-align: center;
-    font-size: 3rem;
+    /* font-size: 3rem; */
   }
   
   .learn-more {
-    width: 12.5rem;
+    /* width: 12.5rem; */
   }
 
   .learn-more::before {
@@ -462,13 +505,13 @@
 
   .img-text-text h2{
     width: 80%;
-    font-size: 3rem;
+    /* font-size: 3rem; */
   }
   
   .img-text-text p{
     width: 80%;
-    font-size: 1.7rem;
-    line-height: 2.5rem;
+    /* font-size: 1.7rem;
+    line-height: 2.5rem; */
   }
 
   .projects img {
@@ -503,8 +546,8 @@
   .client-blurb {
     width: 85%;
     margin: 2rem 0;
-    font-size: 1.7rem;
-    line-height: 2.5rem;
+    /* font-size: 1.7rem; */
+    /* line-height: 2.5rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -515,11 +558,11 @@
   }
 
   .client-name {
-    font-size: 1.9rem;
+    /* font-size: 1.9rem; */
   }
 
   .client-role {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
   }
 
   /* ----- GALLERY ----- */

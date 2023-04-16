@@ -13,7 +13,6 @@ footer {
 .footer-container {
     position: absolute;
     top: 22%;
-    background-color: pink;
     display: flex;
     flex-direction: column;
     align-items: center;
