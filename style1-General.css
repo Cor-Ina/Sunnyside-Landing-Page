@@ -33,7 +33,7 @@ The designs were created to the following widths:
   --softRed-underline: hsla(7, 99%, 70%, 0.2);
   --yellow: hsl(51, 100%, 49%);
   
-  --yellow-underline: hsla(51, 100%, 49%,0.25);
+  --yellow-underline: hsla(51, 100%, 49%, 0.25);
   --lightBlue: hsl(200,100%,62%);
 
   --cyan-graphic-text-h: hsla(166, 40%, 24%, 1);

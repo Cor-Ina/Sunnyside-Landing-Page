@@ -19,19 +19,14 @@ nav {
     align-items: center;
   }
 
-/*------ sunnyside ----- */
-.sunnyside h3 {
-  font-size: 2rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  color: var(--white);
-  transition: color 1s;
-  line-height: 1;
-  padding-bottom: 0.7rem;
+/*------ logo ----- */
+.logo {
+  width: 170px;
+  height: 33px;
 }
 
-.sunnyside h3:hover {
-  color: var(--dark-desaturated-blue);
+.logo:hover {
+  fill: var(--dark-desaturated-blue);
 }
 /***************************/
 

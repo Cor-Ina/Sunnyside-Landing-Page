@@ -1,9 +1,4 @@
 header {
-  /* background: url(images/desktop/image-header-arrow.png) no-repeat center bottom / cover;
-  max-width: 100%;
-  
-  min-height: 100vh; */
-
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -14,15 +9,6 @@ header {
 }
 
 .header-container {
-  /* background: url(images/desktop/image-header-arrow.png) no-repeat center bottom / cover;
-  min-height: 100vh;
-  width: 100%; */
-  /* max-width: 100%; */
-  /* max-height: 100vh; 
-  display: flex;
-  flex-direction: column; */
-  /* min-height: 100vh; */
-  
   align-items: center; 
   position: relative;
   overflow: hidden;
@@ -32,13 +18,12 @@ header {
 
 .header-container img {
   width: 100%;
-  /* height: auto; */
   object-fit:contain;
   overflow: hidden;
   object-position: bottom center;
 }
 
-.heading {
+.heading h1 {
   position: absolute;
   top: 29%;
   left: 50%;
@@ -53,7 +38,7 @@ header {
   font-style: normal;
   letter-spacing: 8.75px;
   line-height: 1.2;
-  font-size: 1.457rem;
+  font-size: 3.5rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
