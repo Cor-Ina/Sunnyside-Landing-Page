@@ -11,7 +11,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
 
 .footer-links  {
@@ -21,11 +21,11 @@ footer {
 
 .footer-links a {
     color: hsla(167, 34%, 41%, 1);
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.4;
-    letter-spacing: -0.128;
+    letter-spacing: -0.13;
     transition: color 1s;
 }
 
