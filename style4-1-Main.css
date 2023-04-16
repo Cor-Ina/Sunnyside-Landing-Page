@@ -17,16 +17,10 @@ main {
     align-items: center;
     overflow: hidden;
     width: 50%;
-
 }
 
 .tile img {
     width: 100%;
     object-fit: cover;
 }
-
-/* to fill the gap between graphic design and photography tiles */
-/* .graphic {
-    margin-right: -0.002rem;
-} */
 

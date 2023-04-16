@@ -1,10 +1,10 @@
 /* to fill the gap between graphic design and photography tiles */
 /* --- Hide horizontal white space between sections ---*/
-.projects,
+/* .projects,
 .about,
 .testimonials {
     margin-top: -0.5rem;
-}
+} */
 
 .tile {
     margin-right: -0.002rem;
