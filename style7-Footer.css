@@ -36,7 +36,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: var(--footer-link);
+    color: var(--white);
 }
 
 .social-icons {
@@ -44,19 +44,19 @@ footer {
 }
 
 .social-icons img {
-    width: 1.1rem;
-    height: 1.1rem;
-    color: hsla(168, 45%, 32%, 1);
+    /* width: 1.1rem;
+    height: 1.1rem; */
     margin: 0 0.8rem;  
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     transition: color 1s;
 }
 
-.social-icons img:hover {
-    color: var(--footer-link)
-}
+.social-icon:hover path {
+    fill: #fff;
+  }
 
 .attribution { 
     font-size: 12px; 
@@ -68,5 +68,5 @@ footer {
 }
 
 .attribution a { 
-    color: var(--footer-link); 
+    color: var(--white); 
 }

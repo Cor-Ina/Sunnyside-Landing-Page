@@ -31,7 +31,8 @@ The designs were created to the following widths:
 :root {
   --softRed: hsl(7, 99%, 70%);
   --softRed-underline: hsla(7, 99%, 70%, 0.2);
-  --yellow: hsl(51, 100%, 49%);
+  --yellow: hsla(51, 100%, 49%, 1);
+
   
   --yellow-underline: hsla(51, 100%, 49%, 0.25);
   --lightBlue: hsl(200,100%,62%);
@@ -65,7 +66,9 @@ The designs were created to the following widths:
   background: hsla(210, 4%, 67%, 1);
 
 
-  --white: hsl(0, 0%, 100%);
+  --white: hsla(0, 0%, 100%, 1);
+  --white-off: hsla(0, 0%, 100%, 0.25);
+
 
   --footer-link: hsl(31,99%,50%);
 }

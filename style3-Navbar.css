@@ -55,7 +55,7 @@ nav {
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: -0.1px;
-  padding: 1rem;
+  padding: 0.9rem;
   width: 7.7rem;
   background: (--white);
   color: var(--contact);
@@ -67,6 +67,6 @@ nav {
 }
 
 .nav-links button:hover {
-  background: var(--yellow);
+  background: var(--white-off);
 }
   
