@@ -11,8 +11,25 @@
     margin: 0 auto;
   }
 
+
+
 }
 
+@media (max-width: 1400px) {
+.clients {
+  width: 90%;
+}
+}
+
+@media (max-width: 1250px) {
+  .clients {
+    width: 90%;
+  }
+
+  .client-blurb {
+    width: 16rem;
+  }
+  }
 
 /* ------------------------------ 1150px ---------------------------- */
 /* ------------------------------------------------------------------ */
@@ -27,9 +44,11 @@
   }
 
     /* ---- TESTIMONIALS ---- */
-  .clients {
-    width: 100%;
-  }
+  
+    .clients {
+      width: 96%;
+    }
+ */
 
 }
 
@@ -52,6 +71,52 @@
 .about h2{
   width: 60%;
 }
+
+.img-text-text {
+  padding-top: 48%;
+}
+
+   /* ----TESTIMONIALS ----*/
+   .testimonials{
+    padding: 9rem 2rem 7rem 2rem;
+  }
+
+  .testimonials h2 {
+    top: 7rem;
+  }
+
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    
+  }
+
+  .client {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    width: 80%;
+  }
+
+  .client img {
+    width: 6.5rem;
+  }
+
+  .client-text {
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+
+  .client-blurb {
+    margin: 1rem 0 1rem 3rem;
+    width: 30rem;
+  }
+
+  .client-blurb p {
+    text-align: left;
+  }
 
 }
 
@@ -79,47 +144,7 @@
     width: 7rem;
   }
 
-   /* ----TESTIMONIALS ----*/
-   .testimonials{
-    padding: 9rem 1rem 7rem 1rem;
-  }
 
-  .testimonials h2 {
-    top: 7rem;
-  }
-
-  .clients {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-    width: 100%;
-  }
-
-  .client {
-    margin: 2rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: top;
-    width: 80%;
-  }
-
-  .client img {
-    width: 6.5rem;
-  }
-
-  .client-text {
-    margin-top: 2rem;
-    margin-left: -1rem;
-  }
-
-  .client-blurb {
-    margin: 1rem 0 1rem 3rem;
-    width: 34rem;
-  }
-
-  .client-blurb p {
-    text-align: left;
-  }
 
 }
 
@@ -199,11 +224,12 @@
     width: 70%;
   }
 
-  /* .text-container p:not(.learn-more){
-    width: 95%;
-  } */
-
   /* ---- MAIN-Projects ----*/
+  .img-text-text {
+ 
+    padding-top: 100%;
+  }
+
   .img-text-text{
     width: 100%;
   }
@@ -215,13 +241,12 @@
 
   .img-text-text p{
     width: 75%;
-    /* font-size: 1.3rem; */
     line-height: 2rem;
   }
 
   /* ----- TESTIMONIALS -----*/
   .testimonials {
-    padding: 10rem 1rem;
+    padding: 8rem 1rem 4rem 1rem;
   }
 
   .client-blurb {
@@ -266,15 +291,18 @@
     width: 40%;
   }
 
-  /* ----- MAIN-About-Projects -----*/
+ 
+  /* ---- MAIN-Projects ----*/
+
+ 
+
   .services h2 {
     width: 90%;
   }
 
-  /* ------ GALLERY ----- */
-  .img-text-text p {
-    width: 28rem;
-  }
+  /* .img-text-text p {
+    width: 15rem;
+  } */
 }
 
 
@@ -354,7 +382,7 @@
     width: 90%;
   }
   .client-blurb {
-    width: 15rem;
+    width: 22rem;
   }
 }
 
@@ -402,7 +430,6 @@
   }
 
   .learn-more {
-    width: 8.5rem;
     margin-top: 0;
   }
   
@@ -437,6 +464,10 @@
 /* ---------------------------------------------------------------------- */
 /* ----------------------- CHANGE TO ONE COLUMN @480px------------------- */
 @media (max-width: 480px) {
+  html {
+    font-size: 112.5%;
+  }
+
   .heading {
     top: 31%;
     /* font-size: 2.1rem; */
@@ -486,13 +517,14 @@
     text-align: center;
     /* font-size: 3rem; */
   }
-  
-  .learn-more {
-    /* width: 12.5rem; */
-  }
+
 
   .learn-more::before {
-    height: 1.2rem;
+    height: 0.8rem;
+    
+    left: -0.3rem;
+    width: calc(100% + 0.6rem);
+    bottom: 0.4rem;
   }
 
   /* ----- PROJECTS ----- */
@@ -537,15 +569,19 @@
   .client {
     display: flex;
     flex-direction: column;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
 
   .client img {
     width: 6rem;
   }
 
+  .client-text {
+    margin-top: 0;
+  }
+
   .client-blurb {
-    width: 85%;
+    width: 90%;
     margin: 2rem 0;
     /* font-size: 1.7rem; */
     /* line-height: 2.5rem; */
