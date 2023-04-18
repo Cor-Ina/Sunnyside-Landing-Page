@@ -38,10 +38,10 @@ Users should be able to:
 
 ## My process
 HTML work: divided the page into several sections: 
-- header (with navbar, background image and heading)
+- header (with navbar, image and h1 title)
 - sidebar (with menu links and social media icons)
-- main, with the following Sections: About, Services, Testimonials, and Projects
-- footer, with many links and social media icons, plus attribution section
+- main, with the following Sections: About, Services, Projects, Testimonials, and Gallery
+- footer, with menu links and social media icons, plus attribution section
 
 I used semantic HTML to make it easier for search engines and screen readers to understand the content of the page. 
 
@@ -51,7 +51,8 @@ I made sure the HTML is well-structured and organized, with appropriate tags and
 
 
 CSS
-I defined the styles for each element on the page, such as fonts, colors, margins, padding, and borders. Made sure the HTML elements had the appropriate IDs, Classes, or attributes.
+I defined the styles for each element on the page, such as fonts, colors, margins, padding, and borders. 
+Made sure the HTML elements had the appropriate IDs, Classes, or attributes.
 
 Used flexbox to style the layout of the landing page.
 
@@ -63,14 +64,15 @@ JavaScript
 Used to display the sidebar on smaller screen sizes
 
 ### Built with
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript, Canva
 
 ### What I learned
 Researched how to include multiple versions of the same picture, and used the "picture" element for the first time
-Learned how to create a hamburger menu and add a sidebar when clicked
-Improved my knowledge of flexbox
+
 Researched ways to add different styles of hover effect and used the content property for the first time to 
 style the sidebar menu
+
+Learned how to change the color of a svg when hovered
 
 ### Continued development
 Improve my approach on responsive design. Specifically, for my next project I will start with a mobile-first layout, so my CSS code is simpler
@@ -82,5 +84,6 @@ Adaptive Design by Aaaron Gustafson
 Corina Murg
 
 ## Acknowledgments
+Many thanks to FrontEnd Mentors Atlas (@AtlasKaplan) and Joaquin (@forjoa) for providing useful feedback.
 
 
