@@ -8,6 +8,13 @@
     
     <title>Frontend Mentor | Sunnyside Agency Landing Page</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fasthand&display=swap" rel="stylesheet">
@@ -27,8 +34,7 @@
     <link rel="stylesheet" href="style6-Gallery.css">
     <link rel="stylesheet" href="style7-Footer.css">
     <link rel="stylesheet" href="style9-Hamburger.css">
-    <link rel="stylesheet" href="style10-Sidebar.css">
-    <link rel="stylesheet" href="style11-MediaQueries.css">   
+    <link rel="stylesheet" href="style10-Sidebar.css">   
   </head>
 
   <body>
@@ -44,16 +50,13 @@
             <a href="#projects">Projects</a>
             <button>CONTACT</button>
           </div>
+          <div class="hamburger-container">
+            <img src="images/icon-hamburger.svg">
+          </div>
         </div>
       </nav>
 
-      <div class="hamburger-container">
-        <div class="hamburger-menu">
-          <div class="line line-1"></div>
-          <div class="line line-2"></div>
-          <div class="line line-3"></div>
-        </div>
-      </div>
+
 
       <div class="header-container">
         <picture>
@@ -69,41 +72,29 @@
 
   
     <section class="sidebar">
-      <div class="sidebar-header">
-        <h2>sunnyside</h2>
-      </div>
-      <div>
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="#about" class="menu-link" data-content="About">About</a>
-          </li>
-          <li class="menu-item">
-            <a href="#services" class="menu-link" data-content="Services">Services</a>
-          </li>
-          <li class="menu-item">
-            <a href="#projects" class="menu-link" data-content="Projects">Projects</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" data-content="Contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="sidebar-social-icons-container">
-        <div class="sidebar-social-icons">
-          <a href="#">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-pinterest" aria-hidden="true"></i>
-          </a>
+      <div class="sidebar-container">
+        <div class="sidebar-x">
+          <i class="fas fa-times"></i>
+        </div>
+        
+        <div>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#about" class="menu-link" data-content="About">About</a>
+            </li>
+            <li class="menu-item">
+              <a href="#services" class="menu-link" data-content="Services">Services</a>
+            </li>
+            <li class="menu-item">
+              <a href="#projects" class="menu-link" data-content="Projects">Projects</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link" data-content="Contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+      
       
     </section>
     <!-- *********************** END OF FRONT PAGE ********************* -->
@@ -112,7 +103,7 @@
     <main>
       <section class="tiles about" id="about">
         <div class="tiles-container">
-          <div class="tile">
+          <div class="tile about-text-tile">
             <div class="text-container">
               <h2>Transform your brand</h2>
               <p class="just-text-text">We are a full-service creative agency specializing in helping brands grow fast. 
@@ -120,7 +111,7 @@
               <p class="learn-more">Learn more</p>
             </div>
           </div>
-          <div class="tile just-img-tile">
+          <div class="tile just-img-tile about-img-tile">
             <picture>
               <source media="(max-width: 480px)" srcset="images/mobile/image-transform.jpg">
               <img src="images/desktop/image-transform.jpg" alt="Egg on a yellow background">

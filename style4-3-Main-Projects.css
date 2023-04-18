@@ -1,9 +1,7 @@
 
 .tile {
     margin-right: -0.002rem;
-
 }
-
 
 .img-text {
     position: relative;
@@ -21,7 +19,6 @@
     object-fit: cover;
 }
 
-
 .img-text-text {
     position: absolute;
     top: 0;
@@ -35,7 +32,6 @@
     align-items: center;
     margin-bottom: 1.5rem;
 }
-
 
 .img-text-text h2 {
     display: inline-block;
@@ -75,4 +71,91 @@
 
 .photography .img-text-text p {
     color: var(--blue-photography-text-p);
+}
+
+/* ----------------------------- 1100px ----------------------------- */
+/* ------------------------------------------------------------------ */
+@media (max-width: 1100px) {
+    .img-text-text {
+    padding-top: 48%;
+    }
+  
+}
+
+/* ------------------------------ 800px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 800px) {
+    .img-text-text {
+      padding-top: 100%;
+    }
+  
+    .img-text-text{
+      width: 100%;
+    }
+    
+    .img-text-text h2{
+      width: 80%;
+    }
+  
+    .img-text-text p{
+      width: 75%;
+    }
+}
+
+
+/* ------------------------------ 600px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 600px) {
+    .img-text-text p {
+      width: 90%;
+    }
+}
+
+/* ------------------------------ 500px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 500px) {
+    .img-text-text p {
+      width: 95%;
+    }
+}
+
+/* ---------------------------------------------------------------------- */
+/* ----------------------- CHANGE TO ONE COLUMN @480px------------------- */
+@media (max-width: 480px) {
+    .projects .tile {
+      width: 100%;
+    }
+  
+    .img-text-text{
+      width: 100%;
+    }
+  
+    .img-text-text h2{
+      width: 80%;
+    }
+    
+    .img-text-text p{
+      width: 95%;
+    }
+
+    .photography {
+        margin-top: -0.4rem;
+    }
+}
+
+/* ------------------------------ 350px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 350px) {
+    .img-text-text {
+      padding-inline: 0;
+      padding-top: 90%;
+      }
+
+    .img-text-text h2 {
+      width: 100%;
+    }
+
+    .img-text-text p {
+        width: 90%;
+    }
 }

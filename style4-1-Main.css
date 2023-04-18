@@ -24,3 +24,11 @@ main {
     object-fit: cover;
 }
 
+/* ---------------------------------------------------------------------- */
+/* ----------------------- CHANGE TO ONE COLUMN @480px------------------- */
+@media (max-width: 480px) {
+    .tiles-container {
+      flex-direction: column;
+    }
+}
+

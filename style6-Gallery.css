@@ -10,3 +10,21 @@
 .gallery-img img {
     width: 100%;
 }
+
+/* ---------------------------------------------------------------------- */
+/* ----------------------- CHANGE TO ONE COLUMN @480px------------------- */
+@media (max-width: 480px) {
+
+    .gallery {
+      flex-wrap: wrap;
+    }
+  
+    .gallery-img {
+      width: 50%;
+      object-fit: cover;
+    }
+    
+    .gallery img {
+      margin-top: -0.4rem;
+    }
+}

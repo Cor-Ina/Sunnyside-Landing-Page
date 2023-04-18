@@ -5,8 +5,7 @@
   right: 0;
   width: 100%;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+ 
   background: var(--lightBlue);
   color: var(--white);
   font-family: Barlow;
@@ -17,24 +16,21 @@
   display: none;
 }
 
-/* ----- HEADER ----- */
-
-.sidebar-header {
+.sidebar-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2.5rem;
 }
 
-.sidebar-header h2 {
-  font-size: 2rem;
-  font-weight: 800;
-  letter-spacing: 0.1rem;
-  padding-bottom: 2.5rem;
-  border-bottom: 0.2rem solid #eee;
+.sidebar-x i {
+	position: absolute;
+  right: 2.5rem;
+  top: 2.5rem;
+	font-size: 3rem;
+	cursor: pointer;
 }
-
-/* ----- MENU ------ */
 
 .menu {
   position: absolute;
@@ -45,6 +41,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.2rem solid #eee;
 }
   
 .menu-item {
@@ -54,7 +52,7 @@
 .menu-link {
   font-family: Barlow;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0.1rem;
   color: var(--white);
   position: relative;
@@ -76,36 +74,52 @@
   width: 100%;
 }
 
-/* ----- SOCIAL ICONS ----- */
-.sidebar-social-icons-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2.5rem;
+
+
+/* ------------------------------ 800px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 800px) {
+  .sidebar-social-icons {
+    width: 40%;
+  }
 }
 
-.sidebar-social-icons {
-  position: absolute;
-  bottom: 0;
-  width: 60%;
-  display: flex;
-  justify-content: space-between; 
-  padding: 2.5rem 0;
-  border-top: 0.2rem solid #eee;
+
+/* ------------------------------ 750px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 750px) {
+  .nav-links {
+      display: none;
+  }
 }
 
-.sidebar-social-icons i {
-  font-size: 3rem;
-  width: 3rem;
-  height: 3rem;
-  color: var(--white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 0.3s;
+/* ------------------------------ 480px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .sidebar-x i {
+    right: 1.5rem;
+    top: 1.5rem;
+    font-size: 2rem;
+  }
+  .menu-item {
+    margin: 1rem 0;
+  }
+
+  .menu-link {
+    font-size: 1.1rem;
+  }
 }
 
-.sidebar-social-icons i:hover {
-  color: var(--dark-desaturated-blue);
+
+
+/* ------------------------------ 300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 300px) {
+  .sidebar-header h2 {
+    
+    padding-top: 2rem;
+    
+  }
 }
+
   

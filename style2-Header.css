@@ -2,7 +2,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  position: relative;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -23,12 +22,11 @@ header {
   overflow: hidden;
   object-position: bottom center;
   margin-bottom: -0.3rem;
-
 }
 
 .heading h1 {
   position: absolute;
-  top: 29%;
+  top: 31%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -48,4 +46,64 @@ header {
 }
 
 
+/* ----------------------------- 1000px ------------------------------ */
+/* ------------------------------------------------------------------- */
+@media (max-width: 1000px) {
+  .heading {
+    /* top: 21%; */
+    width: 60%;
+  } 
+}
 
+/* ------------------------------ 850px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 850px) {
+  .heading h1 {
+    letter-spacing: 5px;
+  }
+}
+
+/* ------------------------------ 800px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 800px) {
+
+  .heading h1 {
+    letter-spacing: 3px;
+  }
+
+}
+
+/* ------------------------------ 650px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 650px) {
+  .heading {
+    width: 50%;
+  }
+
+  .heading h1 {
+    letter-spacing: 8.75px;
+    font-size: 5rem;
+    line-height: 1.4;
+  }
+}
+
+/* ------------------------------ 480px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .heading h1 {
+    font-size: 2.2rem;
+    letter-spacing: 6.25px;
+    top: 35%;
+  }
+}
+
+
+/* ------------------------------ 350px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 350px) {
+  .heading h1{
+    font-size: 1.8rem;
+    letter-spacing: 6px;
+    /* top: 50%; */
+  }
+}

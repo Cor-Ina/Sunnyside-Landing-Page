@@ -2,7 +2,7 @@ footer {
     /* position: relative; */
     background: var(--footer-bg);
     margin-top: -0.4rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
     font-family: Barlow;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ footer {
 }
 
 footer .logo {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 
 }
 .footer-container {
@@ -26,7 +26,7 @@ footer .logo {
 .footer-links  {
     /* margin: 2rem 0 4.5rem 0; */
     color: var(--cyan-footer); 
-    margin-bottom: 6rem;  
+    margin-bottom: 4rem;  
 }
 
 
@@ -46,7 +46,7 @@ footer .logo {
 
 .social-icons {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .social-icons svg {
@@ -75,4 +75,41 @@ svg:hover {
 
 .attribution a { 
     color: var(--white); 
+}
+
+
+
+
+
+/* ------------------------------ 450px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 450px) {
+    .footer-links a {
+      margin: 0 1rem;
+    }
+}
+
+/* ------------------------------ 300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 300px) {  
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-links a{
+    margin: 1rem 0;
+    }
+  
+    .attribution { 
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+    }
+  
+    .attribution a { 
+      color: var(--white); 
+    }
+  
 }

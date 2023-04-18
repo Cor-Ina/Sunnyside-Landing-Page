@@ -74,10 +74,10 @@
 .learn-more::before {
     cursor: pointer;
     content: "";
-    width: calc(100% + 1.2rem);
+    width: calc(100% + 1rem);
     height: 0.8rem;
     position: absolute;
-    left: -0.6rem;
+    left: -0.5rem;
     bottom: -0.2rem;
     border-radius: 28px;
     z-index: -1;
@@ -100,3 +100,185 @@
     background-color: var(--softRed);
 }
 
+
+/* ------------------------------ 1150px ---------------------------- */
+/* ------------------------------------------------------------------ */
+@media (max-width: 1150px) {
+    .about h2 {
+        width: 70%;
+    }
+}
+
+/* ----------------------------- 1100px ----------------------------- */
+/* ------------------------------------------------------------------ */
+@media (max-width: 1100px) {
+    .text-container {
+      width: 80%;
+    }
+  
+    .text-container h2{
+      width: 90%;
+    }
+  
+    .about h2{
+    width: 60%;
+    }
+  
+    .img-text-text {
+    padding-top: 48%;
+    }
+}
+
+/* ----------------------------- 1000px ------------------------------ */
+/* ------------------------------------------------------------------- */
+@media (max-width: 1000px) {
+    .text-container {
+      width: 80%;
+      margin-left: -1rem;
+    }
+  
+    .learn-more {
+      width: 7rem;
+    }
+}
+
+/* ------------------------------ 800px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 800px) {
+    .text-container {
+      width: 80%;
+    }
+  
+    .about h2 {
+      width: 70%;
+    }
+}  
+  
+/* ------------------------------ 750px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 750px) {
+    .services h2 {
+      width: 90%;
+    }
+  
+}
+
+/* ------------------------------ 700px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 700px) {
+    .text-container {
+      width: 80%;
+    }
+  
+    .about h2 {
+      width: 80%;
+    }
+  
+    .services h2 {
+      width: 100%;
+    }
+}
+
+
+/* ------------------------------ 650px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 650px) {
+    .text-container {
+      width: 90%;
+      padding: 1rem 0.5rem 1rem 1rem;
+    }
+  
+    .img-text-text p{
+      width: 85%;
+    }
+}  
+
+/* ------------------------------ 600px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 600px) {
+    .text-container {
+      width: 100%;
+      padding: 1.5rem 1rem 1.5rem 2.5rem;
+    }
+  
+    .learn-more {
+      margin-top: -1rem;
+    }
+}
+
+/* --------------------------------------------------------------------- */
+/* --------------------------------550px ------------------------------- */
+@media (max-width: 550px) {
+    .just-text-text {
+      margin-bottom: 1rem;
+    }
+  
+    .learn-more {
+      margin-top: 0;
+    }
+    
+}
+
+/* ------------------------------ 500px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 500px) {
+    .text-container {
+      padding: 1.4rem 0 1.4rem 2.4rem;
+    }
+}
+
+/* ---------------------------------------------------------------------- */
+/* ----------------------- CHANGE TO ONE COLUMN @480px------------------- */
+@media (max-width: 480px) {
+    .about {
+      flex-direction: column-reverse;
+    }
+  
+    .about .tile {
+      width: 100%;
+    }
+  
+    .services .tile {
+      width: 100%;
+    }
+  
+    .about-img-tile {
+      order: -1;
+    }
+    
+    .text-container {
+      width: 83%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 4rem 0;
+      padding: 0;
+    }
+  
+    .text-container h2{
+      width: 80%;
+      text-align: center;
+      font-size: 1.7rem;
+    }
+}
+  
+  
+/* ------------------------------ 400px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 400px) {
+    .text-container {
+        width: 85%;
+    }
+  
+    .img-text-text p{
+      width: 95%;
+    }
+
+    .about-text-tile {
+        margin-top: -0.4rem;
+    }
+}  
+
+  
+  
