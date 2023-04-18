@@ -6,7 +6,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -15,7 +14,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
 
 
 ## Overview
@@ -27,11 +25,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-
 ### Links
 
 - Live Site URL: https://corina-murg-sunnyside-landing-page.netlify.app/
@@ -41,9 +34,7 @@ HTML work: divided the page into several sections:
 - header (with navbar, image and h1 title)
 - sidebar (with menu links and social media icons)
 - main, with the following Sections: About, Services, Projects, Testimonials, and Gallery
-- footer, with menu links and social media icons, plus attribution section
-
-I used semantic HTML to make it easier for search engines and screen readers to understand the content of the page. 
+- footer, with menu links and social media icons, plus attribution section 
 
 Assigned alt text to important images.
 
@@ -62,6 +53,11 @@ Optimized the HTML and CSS code by removing any unnecessary elements or styles.
 
 JavaScript
 Used to display the sidebar on smaller screen sizes
+
+ACCESSIBILITY
+I used semantic HTML to make it easier for search engines and screen readers to understand the content of the page.
+
+Researched about/included Skip-to-content button
 
 ### Built with
 HTML, CSS, JavaScript, Canva
