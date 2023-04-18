@@ -50,7 +50,6 @@ header {
 /* ------------------------------------------------------------------- */
 @media (max-width: 1000px) {
   .heading {
-    /* top: 21%; */
     width: 60%;
   } 
 }
@@ -104,6 +103,5 @@ header {
   .heading h1{
     font-size: 1.8rem;
     letter-spacing: 6px;
-    /* top: 50%; */
   }
 }

@@ -19,18 +19,18 @@ nav {
     align-items: center;
   }
 
-/*------ logo ----- */
-.logo {
+
+nav svg {
   width: 170px;
   height: 33px;
+  transition: color 1s;
+  color: #fff;
 }
 
-.logo:hover {
-  fill: var(--dark-desaturated-blue);
+nav svg:hover {
+  color: var(--dark-desaturated-blue);
 }
-/***************************/
 
-  
 .nav-links a {
   font-family: Barlow;
   font-weight: 600;
@@ -41,8 +41,6 @@ nav {
   letter-spacing: -0.128px;
   text-align: left;
 }
-
-
 
 .nav-links a:hover {
   color: var(--dark-desaturated-blue);
