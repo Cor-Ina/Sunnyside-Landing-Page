@@ -79,10 +79,15 @@ body {
 
 .skip-to-content {
   position: absolute;
+  left: 2.5%;
   z-index: 9999;
-  background: white;
-  color: black; 
-  padding: .5em 1em;
+  background: var(--dark-desaturated-blue);
+  font-family: Barlow;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: .5em 0.5em;
+  border-radius: 0.5rem;
   margin-inline: auto;
   transform: translateY(-100%);
   transition: transform 250ms ease-in;
