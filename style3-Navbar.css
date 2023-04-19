@@ -12,19 +12,25 @@ nav {
   z-index: 100;
 }
   
-  .nav-container {
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.nav-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.header-logo {
+  display: flex;
+  align-items: center;
+}
 
 nav svg {
   width: 170px;
   height: 33px;
   transition: color 1s;
   color: #fff;
+  align-self: center;
+  justify-self: center;
 }
 
 nav svg:hover {
