@@ -36,7 +36,7 @@
     line-height: 1.2;
     letter-spacing: -0.29px;
     margin-bottom: 1.5rem;
-    color: var(--dark-desaturated-blue);
+    color: var(--about-services-h);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 600;
-    color: var(--grayish-blue);
+    color: var(--about-services-p);
     margin-bottom: 2rem;
     line-height: 1.66;
     letter-spacing: -0.13px;
@@ -61,7 +61,7 @@
     font-size: 0.83rem;
     line-height: 1.66;
     text-transform: uppercase;
-    color: var(--dark-desaturated-blue);
+    color: var(--learn-more);
     position: relative;
     margin-left: 0.6rem;
     width: 6.6rem;

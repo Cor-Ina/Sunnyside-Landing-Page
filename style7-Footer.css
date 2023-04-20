@@ -9,10 +9,8 @@ footer {
     padding-bottom: 0.5rem;
 }
 
-
 .footer-logo {
-    margin-bottom: 2.5rem;
-    
+    margin-bottom: 2.5rem; 
 }
 
 .footer-logo svg {
@@ -29,7 +27,6 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-
 
 .footer-links  {
     color: var(--cyan-footer); 
@@ -49,7 +46,6 @@ footer {
 .footer-links a:hover {
     color: var(--white);
 }
-
 
 .social-icons {
     display: flex;

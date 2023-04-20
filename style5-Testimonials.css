@@ -17,7 +17,7 @@
     letter-spacing: 5px;
     text-align: center;
     line-height: 1.25;
-    color: hsla(210, 4%, 67%, 1);
+    color: var(--testimonials-h);
 
 }
 
@@ -54,7 +54,7 @@
     text-align: center;
     font-family: Barlow;
     font-weight: 600;
-    color: hsla(213, 9%, 39%, 1);
+    color: var(--client-blurb);
     letter-spacing: -0.128px;
     line-height: 1.77;
 }
@@ -64,7 +64,7 @@
     font-weight: 900;
     letter-spacing: -0.128px;
     line-height: 1.2;
-    color: hsla(212, 27%, 19%, 1);
+    color: var(--client-name);
     margin-bottom: 0.5rem;
 }
 
@@ -72,7 +72,7 @@
     font-family: Barlow;
     font-weight: 600;
     font-size: 0.77rem;
-    color: hsla(210, 4%, 67%, 1);
+    color: var(--client-role);
     letter-spacing: -0.1px;
     line-height: 1.78;
 }

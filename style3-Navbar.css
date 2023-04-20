@@ -82,7 +82,7 @@ nav svg:hover {
 }
 
 nav .active {
-  background-color: white;
+  background-color: var(--white);
   left: 2rem;
   right: 2rem;
   margin-inline: auto;
@@ -100,7 +100,7 @@ nav .active:before {
   width: 0;
   height: 0;
   border: 25px solid transparent;
-  border-bottom-color: white;
+  border-bottom-color: var(--white);
   border-top: 0;
   border-right: 0;
   margin-left: -12px;
@@ -109,7 +109,7 @@ nav .active:before {
 
 nav .active a {
   margin: 1rem;
-  color: #808397;
+  color: var(--nav-active);
   font-size: 1.5rem;
   font-family: Barlow;
   letter-spacing: -0.14px;
