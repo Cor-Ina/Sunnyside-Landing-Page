@@ -15,14 +15,13 @@ nav {
   display: none;
 }
 
-nav svg {
+.header-logo {
   width: 170px;
-  height: 33px;
-  transition: color 1s;
+}
+
+nav svg {
   color: #fff;
-  vertical-align: center;
-  /* align-self: center;
-  justify-self: center; */
+  transition: color 1s;
 }
 
 nav svg:hover {
@@ -59,6 +58,7 @@ nav svg:hover {
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: -0.1px;
+  text-transform: uppercase;
   padding: 0.88rem 1.76rem;
   background: (--white);
   color: var(--contact);
@@ -117,7 +117,7 @@ nav .active a {
   line-height: 1.2;
 }
 
-nav .active #contact {
+nav .active button {
   background-color: var(--yellow);
   padding: 0.88rem 1.76rem;
   margin-inline: auto;
@@ -175,14 +175,13 @@ nav .active #contact {
   }
 
   
-  nav .active #contact {
+  nav .active button {
     font-size: 0.83rem;
   }
 
-    /* .logo {
-    height: 24px;
-    width: auto;
-  } */
+  .header-logo {
+    width: 124px;
+  }
 } 
 
 /* ------------------------------ 400px ------------------------------- */

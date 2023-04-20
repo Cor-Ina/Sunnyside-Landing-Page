@@ -1,0 +1,16 @@
+/* 
+
+.sidebar {
+  z-index: 300;
+  background-color: white;
+  left: 2.5%;
+  right: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 7rem;
+  font-family: Barlow;
+  /* box-shadow: -0.1rem 0 0.5rem rgba(0, 0, 0, 0.3);
+  transition: right 0.5s cubic-bezier(1, 0, 0, 1); */
