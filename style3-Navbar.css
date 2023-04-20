@@ -24,10 +24,6 @@ nav svg {
   transition: color 1s;
 }
 
-nav svg:hover {
-  color: var(--dark-desaturated-blue);
-}
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -48,7 +44,7 @@ nav svg:hover {
 }
 
 .nav-links a:hover {
-  color: var(--dark-desaturated-blue);
+  color: var(--nav-hover);
 }
 
 .nav-links button {

@@ -6,7 +6,7 @@ nav: 100
 :root {
   --lightBlue: hsl(200,100%,62%);
   /* nav-links a:hover */
-  --dark-desaturated-blue: hsla(211, 26%, 19%, 1);
+  --nav-hover: hsla(211, 26%, 19%, 1);
   --nav-active: hsla(232, 10%, 55%, 1);
   --contact: hsla(212, 27%, 19%, 1);
 
