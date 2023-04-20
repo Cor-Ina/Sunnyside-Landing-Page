@@ -1,15 +1,16 @@
 
-const sidebar = document.querySelector(".sidebar");
 
-document.querySelector(".hamburger-container").addEventListener("click", () => {
-    // document.querySelector(".hamburger-container").classList.toggle("change");
-    if (sidebar.style.display === "block") {
-      sidebar.style.display = "none";
-    } else {
-      sidebar.style.display = "block";
-    }
-});
+const hamburgerIcon = document.getElementById('hamburger-icon');
+const hamburgerMenu = document.getElementById('hamburger-menu');
 
-document.querySelector(".sidebar-x i").addEventListener("click", () => {
-  sidebar.style.display = "none";
-});
+
+hamburgerIcon.addEventListener('click', function () {
+  hamburgerMenu.classList.toggle('active');
+})
+
+window.addEventListener('resize', function() {
+  if (window.matchMedia("(min-width: 600px)").matches) {
+    hamburgerMenu.classList.remove('active');
+  }
+})
+

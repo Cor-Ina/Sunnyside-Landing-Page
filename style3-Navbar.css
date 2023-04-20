@@ -1,27 +1,18 @@
 
 nav {
-  width: 100%;
-  height: 6.5rem;
-  background: var(--lightBlue);
   position: fixed;
+  background: var(--lightBlue);
   top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Barlow;
-  z-index: 100;
-}
-  
-.nav-container {
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem;
+  z-index: 100;
 }
 
-.header-logo {
-  display: flex;
-  align-items: center;
+#hamburger-icon {
+  display: none;
 }
 
 nav svg {
@@ -29,19 +20,28 @@ nav svg {
   height: 33px;
   transition: color 1s;
   color: #fff;
-  align-self: center;
-  justify-self: center;
+  vertical-align: center;
+  /* align-self: center;
+  justify-self: center; */
 }
 
 nav svg:hover {
   color: var(--dark-desaturated-blue);
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav-links a {
+  font-size: 1.1rem;
   font-family: Barlow;
   font-weight: 600;
   line-height: 1.4;
-  color: var(--white);
+  letter-spacing: -0.14px;
+  color: white;
   margin-left: 3rem;
   transition: color 1s;
   letter-spacing: -0.128px;
@@ -59,8 +59,7 @@ nav svg:hover {
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: -0.1px;
-  padding: 0.9rem;
-  width: 7.7rem;
+  padding: 0.88rem 1.76rem;
   background: (--white);
   color: var(--contact);
   margin-left: 3rem;
@@ -74,73 +73,144 @@ nav svg:hover {
   background: var(--white-off);
 }
   
-/* ------------------------------ 950px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (max-width: 950px) {
-  nav {
-    height: 7rem;
-  } 
+/*******************************************************/
+/************************ ACTIVE ***********************/
+#hamburger-menu.active {
+  /* z-index: 300; */
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
 }
 
-/* ------------------------------ 900px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (max-width: 900px) {
-  nav {
-    height: 6rem;
-  } 
+nav .active {
+  background-color: white;
+  left: 2rem;
+  right: 2rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 9rem;
 }
 
-/* ------------------------------ 900px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (max-width: 900px) {
-  .clients {
-    width: 95%;
+nav .active:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-bottom-color: white;
+  border-top: 0;
+  border-right: 0;
+  margin-left: -12px;
+  margin-top: -24px;
+}
+
+nav .active a {
+  margin: 1rem;
+  color: #808397;
+  font-size: 1.5rem;
+  font-family: Barlow;
+  letter-spacing: -0.14px;
+  line-height: 1.2;
+}
+
+nav .active #contact {
+  background-color: var(--yellow);
+  padding: 0.88rem 1.76rem;
+  margin-inline: auto;
+  margin-top: 1rem;
+  color: var(--contact);
+  font-family: Fraunces;
+  border-radius: 4rem;
+  font-size: 1.2rem;
+  text-align: center;
   }
-  .client-blurb {
-    width: 23rem;
+/************************END OF ACTIVE ***********************/
+
+
+
+/* ------------------------------ 600px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 600px) {
+  #hamburger-icon {
+    display: block;
+    cursor: pointer; 
+    background: transparent;
+    border: none;
+  }
+
+  #hamburger-menu {
+    display: none;
   }
 }
 
-/* ------------------------------ 800px ------------------------------- */
+/* ------------------------------ 550px ------------------------------- */
 /* -------------------------------------------------------------------- */
-@media (max-width: 800px) {
-  nav {
-    height: 6rem;
-  } 
-}
-
-/* ------------------------------ 750px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (max-width: 750px) {
-  nav {
-    height: 5.5rem;
-  } 
-
-  .logo {
-    height: 24px;
-    width: auto;
-  }
-}
-
-
-/* ------------------------------ 650px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (max-width: 650px) {
-  
-  .nav-container {
-    width: 90%;
+@media (max-width: 550px) {
+  nav .active a {
+    font-size: 1.7rem;
   }
 
-  nav {
-    height: 8rem;
-  } 
+  nav .active #contact {
+    font-size: 1.4rem;
+  }
 }
 
 /* ------------------------------ 480px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (max-width: 480px) {
+  #hamburger-menu.active {
+    padding: 1rem 0 2rem 0;
+  }
 
+  nav .active {
+    top: 6rem;
+  }
+
+  nav .active a {
+    font-size: 1.1rem;
+  }
+
+  
+  nav .active #contact {
+    font-size: 0.83rem;
+  }
+
+    /* .logo {
+    height: 24px;
+    width: auto;
+  } */
+} 
+
+/* ------------------------------ 400px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 400px) {
   nav {
-    height: 5rem;
-  } 
+    padding: 2rem 1rem;
+  }
+  nav .active {
+    left: 1rem;
+    right: 1rem;
+  }
 }
+
+/* ------------------------------ 300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width: 300px) {
+  nav {
+    padding: 1rem 0.5rem;
+  }
+  nav .active {
+    top: 4rem;
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+
+  nav .active a {
+    margin: 0.5rem;
+  }
+}
+

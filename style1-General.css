@@ -1,9 +1,9 @@
 
 /* --------------- Z Index --------------- 
 
-.nav (navbar): 100
-.heading (h1): 200
-.sidebar: 300
+nav: 100
+.heading h1: 200
+nav .active: 300
 .hamburger-menu: 400
 */
 
@@ -44,7 +44,7 @@
 }
   
   
-* {
+*, ::before, ::after {
   margin: 0;
   padding: 0;
   outline: none;
