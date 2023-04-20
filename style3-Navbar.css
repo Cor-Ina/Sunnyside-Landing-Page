@@ -76,7 +76,6 @@ nav svg:hover {
 /*******************************************************/
 /************************ ACTIVE ***********************/
 #hamburger-menu.active {
-  /* z-index: 300; */
   display: flex;
   flex-direction: column;
   padding: 3rem 0;

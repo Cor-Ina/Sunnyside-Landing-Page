@@ -4,7 +4,6 @@ main {
     flex-direction: column;
 }
 
-/* --- There are 3 sections. Each section has a tile-container with 2 tiles (horizontal flex) */
 .tiles-container {
     width: 100%;
     display: flex;

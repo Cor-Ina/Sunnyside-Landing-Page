@@ -32,17 +32,16 @@ Users should be able to:
 ## My process
 HTML work: divided the page into several sections: 
 - header (with navbar, image and h1 title)
-- sidebar (with menu links and social media icons)
 - main, with the following Sections: About, Services, Projects, Testimonials, and Gallery
 - footer, with menu links and social media icons, plus attribution section 
 
 Assigned alt text to important images.
 
-I made sure the HTML is well-structured and organized, with appropriate tags and attributes.
+Made sure the HTML is well-structured and organized, with appropriate tags and attributes.
 
 
 CSS
-I defined the styles for each element on the page, such as fonts, colors, margins, padding, and borders. 
+Defined the styles for each element on the page, such as fonts, colors, margins, padding, and borders. 
 Made sure the HTML elements had the appropriate IDs, Classes, or attributes.
 
 Used flexbox to style the layout of the landing page.
@@ -55,7 +54,7 @@ JavaScript
 Used to display the sidebar on smaller screen sizes
 
 ACCESSIBILITY
-I used semantic HTML to make it easier for search engines and screen readers to understand the content of the page.
+Used semantic HTML to make it easier for search engines and screen readers to understand the content of the page.
 
 Researched about/included Skip-to-content button
 
