@@ -62,6 +62,11 @@ body {
   border: none;
 }
 
+*:focus-visible {
+  outline: 3px solid hsla(211, 26%, 19%, 1);
+  outline-offset: 3px;
+}
+
 .sr-only {
   position: absolute; 
   width: 1px;
@@ -105,17 +110,20 @@ body {
 
 /* ------------------------------ 1440px ------------------------------- */
 /* -------------------------------------------------------------------- */
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   body {
     max-width: 1440px;
     margin: 0 auto;
+    -webkit-box-shadow: 0px 34px 40px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 34px 40px 12px rgba(0, 0, 0, 0.2);
   }
+
 
   nav {
-    max-width: 1440px;
+    max-width: 1441px;
     margin: 0 auto;
-  }
-
+  } 
+  
 }
 
 /* ----------------------------- 1000px ------------------------------ */

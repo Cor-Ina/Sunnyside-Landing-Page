@@ -30,41 +30,15 @@ Users should be able to:
 - Live Site URL: https://corina-murg-sunnyside-landing-page.netlify.app/
 
 ## My process
-HTML work: divided the page into several sections: 
-- header (with navbar, image and h1 title)
-- main, with the following Sections: About, Services, Projects, Testimonials, and Gallery
-- footer, with menu links and social media icons, plus attribution section 
-
-Assigned alt text to important images.
-
-Made sure the HTML is well-structured and organized, with appropriate tags and attributes.
-
-
-CSS
-Defined the styles for each element on the page, such as fonts, colors, margins, padding, and borders. 
-Made sure the HTML elements had the appropriate IDs, Classes, or attributes.
-
-Used flexbox to style the layout of the landing page.
-
-Made sure the page was responsive and looks good on different screen sizes.
-
-Optimized the HTML and CSS code by removing any unnecessary elements or styles. 
-
-JavaScript
-Used to display the sidebar on smaller screen sizes
-
-ACCESSIBILITY
-Used semantic HTML to make it easier for search engines and screen readers to understand the content of the page.
-
-Researched about/included Skip-to-content button
 
 ### Built with
-HTML, CSS, JavaScript, Canva
+HTML, CSS, JavaScript, Canva, a11y
+
 
 ### What I learned
 Researched how to include multiple versions of the same picture, and used the "picture" element for the first time
 
-Researched ways to add different styles of hover effect and used the content property for the first time to 
+Researched ways to add different hover stules and used the content property for the first time to 
 style the sidebar menu
 
 Learned how to change the color of a svg when hovered
@@ -77,6 +51,11 @@ Adaptive Design by Aaaron Gustafson
 
 ## Author
 Corina Murg
+
+- Website - https://github.com/Cor-Ina
+- Frontend Mentor - @Cor-Ina: https://www.frontendmentor.io/profile/Cor-Ina
+- LinkedIn - https://www.linkedin.com/in/corinamurg/
+- Twitter - https://twitter.com/corinamurg
 
 ## Acknowledgments
 Many thanks to FrontEnd Mentors Atlas (@AtlasKaplan) and Joaquin (@forjoa) for providing useful feedback.

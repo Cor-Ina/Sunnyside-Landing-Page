@@ -43,7 +43,8 @@ nav svg {
   text-align: left;
 }
 
-.nav-links a:hover {
+.nav-links a:hover:not(:focus-visible)
+{
   color: var(--nav-hover);
 }
 
@@ -65,7 +66,8 @@ nav svg {
   transition: background 1s;
 }
 
-.nav-links button:hover {
+.nav-links button:hover:not(:focus-visible),
+.nav-links button:active {
   background: var(--white-off);
 }
   
